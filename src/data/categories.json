@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "الهواتف",
+    "slug": "phones",
+    "image": "/phones-categoris.jpg"
+  },
+  {
+    "id": 2,
+    "title": "ايباد",
+    "slug": "ipad",
+    "image": "/ipad-categoris.jpg"
+  },
+  {
+    "id": 3,
+    "title": "ساعات",
+    "slug": "watches",
+    "image": "/watches-categoris.jpg"
+  },
+  {
+    "id": 4,
+    "title": "اكسسوارات",
+    "slug": "accessories",
+    "image": "/accessories-categoris.jpg"
+  },
+  {
+    "id": 5,
+    "title": "سماعات ",
+    "slug": "headphones",
+    "image": "/headphones-categoris.jpg"
+  }
+]
