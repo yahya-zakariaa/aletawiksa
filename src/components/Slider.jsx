@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Navigation } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
 import { toast } from "sonner";
 import Link from "next/link";
@@ -48,12 +48,12 @@ export default function Slider() {
           disableOnInteraction: false,
         }}
         breakpoints={{
-          320: { slidesPerView: 1.2 }, // موبايل
+          320: { slidesPerView: 2, spaceBetween: 10 }, // موبايل
           540: { slidesPerView: 2 }, // تابلت
           1024: { slidesPerView: 3 }, // لاب توب
-          1280: { slidesPerView: 4 }, // شاشات أكبر
+          1280: { slidesPerView: 3 }, // شاشات أكبر
         }}
-        spaceBetween={20}
+        spaceBetween={10}
         loop={true}
         navigation={{
           prevEl: prevRef.current,
@@ -65,60 +65,69 @@ export default function Slider() {
           swiper.navigation.init();
           swiper.navigation.update();
         }}
-        modules={[Autoplay, Navigation]}
+        pagination={{
+          dynamicBullets: true,
+        }}
+        modules={[Autoplay, Navigation, Pagination]}
         className="mySwiper overflow-hidden rounded-2xl"
       >
         {phones.apple.map((p, i) => (
           <SwiperSlide key={i} className="">
             <Link
               href={`/products/${p.category}/${p.type}/${p.id}`}
-              className="product px-3 py-4 rounded-2xl bg-white   block  "
+              className="product sm:px-3 p-2 sm:py-4 rounded-2xl bg-white    block  w-full  "
             >
-              <div className="image aspect-[3/3.5] w-full relative">
-                <Image
-                  src={p.image}
-                  alt={p.name}
-                  fill
-                  quality={100}
-                  unoptimized
-                  className=" mx-auto aspect-square max-w-[230px] max-h-[300px]  rounded-lg"
-                />
-              </div>
-              <h3 className="text-sm font-semibold mt-2">{p.name}</h3>
-              <p className="text-xs text-gray-500 line-clamp-1">
-                {p.description}
-              </p>
-              <div className="flex items-center justify-between mt-2">
-                <span className="text-lg font-bold text-[#4d1572]">
-                  {p.price} ر.س
-                </span>
-                <span className="text-sm text-red-500 bg-red-100 px-2 py-1 rounded">
-                  خصم {p.discount}%
-                </span>
-              </div>
-              <button
-                onClick={() => addToCart(p)}
-                className="bg-[#4d1572] text-white w-full py-2 rounded-md mt-5 flex items-center justify-center gap-2 hover:bg-[#6b1fa3] transition-colors cursor-pointer"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="18"
-                  height="18"
-                  viewBox="0 0 24 24"
-                >
-                  <g
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+              <div className="flex sm:flex-row flex-col items-center sm:items-start gap-4">
+                <div className="image sm:aspect-[3/3.3] aspect-[3/3.5] w-full relative max-w-[100%] sm:max-w-[35%] h-full">
+                  <Image
+                    src={p.image}
+                    alt={p.name}
+                    fill
+                    quality={100}
+                    unoptimized
+                    className=" mx-auto aspect-square max-w-[230px] max-h-[300px]  rounded-lg"
+                  />
+                </div>
+                <div className="flex flex-col justify-between sm:px-3 w-full sm:max-w-[70%]">
+                  <h3 className="sm:text-sm text-xs w-full text-nowrap">
+                    {p.name}
+                  </h3>
+                  <p className="text-xs text-gray-500 line-clamp-1">
+                    {p.description}
+                  </p>
+                  <div className="flex items-center justify-between sm:mt-5 mt-8">
+                    <span className="sm:text-md text-[14px] font-bold text-[#4d1572] ">
+                      {p.price} ر.س
+                    </span>
+                    <span className="text-[10px] text-red-500 bg-red-100 sm:px-2 sm:py-1 px-1 py-0.5 rounded">
+                      خصم {p.discount}%
+                    </span>
+                  </div>
+                  <button
+                    onClick={() => addToCart(p)}
+                    className="bg-[#4d1572] sm:text-md text-xs text-white w-full py-2 rounded-md mt-3 flex items-center justify-center gap-2 hover:bg-[#6b1fa3] transition-colors cursor-pointer"
                   >
-                    <path d="M20.177 12.511c-.35-3.002-.863-5.253-1.338-6.852c-.389-1.312-.584-1.968-1.382-2.563S15.843 2.5 14.211 2.5H8.79c-1.632 0-2.448 0-3.246.596c-.798.595-.993 1.251-1.382 2.563c-.475 1.599-.987 3.85-1.337 6.852c-.413 3.539-.62 5.308.573 6.648C4.591 20.5 6.524 20.5 10.392 20.5h2.216" />
-                    <path d="M8.5 6.5a3 3 0 0 0 6 0m1 12h6m-3 3v-6" />
-                  </g>
-                </svg>
-                أضف للسله
-              </button>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="1.5"
+                      >
+                        <path d="M20.177 12.511c-.35-3.002-.863-5.253-1.338-6.852c-.389-1.312-.584-1.968-1.382-2.563S15.843 2.5 14.211 2.5H8.79c-1.632 0-2.448 0-3.246.596c-.798.595-.993 1.251-1.382 2.563c-.475 1.599-.987 3.85-1.337 6.852c-.413 3.539-.62 5.308.573 6.648C4.591 20.5 6.524 20.5 10.392 20.5h2.216" />
+                        <path d="M8.5 6.5a3 3 0 0 0 6 0m1 12h6m-3 3v-6" />
+                      </g>
+                    </svg>
+                    أضف للسله
+                  </button>
+                </div>
+              </div>
             </Link>
           </SwiperSlide>
         ))}

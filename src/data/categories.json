@@ -1,32 +1,27 @@
 [
   {
     "id": 1,
-    "title": "الهواتف",
+    "title": "الاجهزه الذكيه",
     "slug": "phones",
-    "image": "/phones-categoris.jpg"
+    "image": "/electronic-icon.jpg"
   },
-  {
-    "id": 2,
-    "title": "ايباد",
-    "slug": "ipad",
-    "image": "/ipad-categoris.jpg"
-  },
+
   {
     "id": 3,
-    "title": "ساعات",
-    "slug": "watches",
-    "image": "/watches-categoris.jpg"
+    "title": "الساعات الذكيه",
+    "slug": "watchs",
+    "image": "/watchs-icon.jpg"
   },
   {
     "id": 4,
-    "title": "اكسسوارات",
+    "title": "منتجات اكس وولف",
     "slug": "accessories",
-    "image": "/accessories-categoris.jpg"
+    "image": "/x-wolf-icon.jpg"
   },
   {
     "id": 5,
-    "title": "سماعات ",
+    "title": "الصوتيات",
     "slug": "headphones",
-    "image": "/headphones-categoris.jpg"
+    "image": "/headphones-icon.jpg"
   }
 ]

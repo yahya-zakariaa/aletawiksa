@@ -22,10 +22,8 @@ export default function CategoriesSlider() {
           disableOnInteraction: false,
         }}
         breakpoints={{
-          320: { slidesPerView: 1.5 }, // موبايل
-          640: { slidesPerView: 2.5 }, // تابلت
-          1024: { slidesPerView: 3.5 }, // لاب توب
-          1280: { slidesPerView: 4 }, // شاشات أكبر
+          320: { slidesPerView: 4 }, // موبايل
+          640: { slidesPerView: 4 }, // تابلت
         }}
         loop={true}
         spaceBetween={20}
@@ -43,55 +41,21 @@ export default function CategoriesSlider() {
         className="mySwiper "
       >
         {categories.map((c, i) => (
-          <SwiperSlide key={i} className="px-5">
-            <div className="category relative aspect-[1/1] rounded-lg overflow-hidden">
+          <SwiperSlide key={i} className="">
+            <div className="category relative w-full flex flex-col items-center  ">
               <Image
                 src={c.image}
                 alt={c.title}
-                width={200}
-                height={200}
+                width={70}
+                height={70}
                 quality={100}
                 unoptimized
                 className="w-full h-full   rounded-lg"
               />
-              <div className="w-full h-full font-bold text-lg absolute top-0 left-0 bg-black/60 text-white flex items-center justify-center py-2 ">
-                {c.title}
-              </div>
+              <div className="text-[10px]">{c.title}</div>
             </div>
           </SwiperSlide>
         ))}
-        <button
-          ref={nextRef}
-          className="absolute z-50 cursor-pointer left-0 top-1/2 -translate-y-1/2 bg-[#4d1572] text-[#fff] rounded-full p-3 "
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 7 16"
-          >
-            <path
-              fill="currentColor"
-              d="M5.5 13a.47.47 0 0 1-.35-.15l-4.5-4.5c-.2-.2-.2-.51 0-.71l4.5-4.49c.2-.2.51-.2.71 0s.2.51 0 .71L1.71 8l4.15 4.15c.2.2.2.51 0 .71c-.1.1-.23.15-.35.15Z"
-            />
-          </svg>
-        </button>
-        <button
-          ref={prevRef}
-          className="absolute right-0 z-50 cursor-pointer top-1/2 -translate-y-1/2 bg-[#4d1572] text-[#fff] rounded-full p-3"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 7 16"
-          >
-            <path
-              fill="currentColor"
-              d="M1.5 13a.47.47 0 0 1-.35-.15c-.2-.2-.2-.51 0-.71L5.3 7.99L1.15 3.85c-.2-.2-.2-.51 0-.71s.51-.2.71 0l4.49 4.51c.2.2.2.51 0 .71l-4.5 4.49c-.1.1-.23.15-.35.15"
-            />
-          </svg>
-        </button>
       </Swiper>
     </>
   );

@@ -208,7 +208,7 @@ export default function Navbar() {
       </div>
       <div className="mobile-links fixed bottom-0 z-50 bg-white w-full border-t border-t-gray-200 md:hidden">
         <ul className="flex justify-between px-5  py-1   items-center text-[#4d1972] w-[90%] mx-auto   pb-1.5 ">
-          <li className="flex flex-col items-center gap-1/2">
+          <Link href="/" className="flex flex-col items-center gap-1/2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -221,8 +221,8 @@ export default function Navbar() {
               />
             </svg>
             <span className="text-[10px]">الرئيسيه</span>
-          </li>
-          <li className="flex flex-col items-center gap-1/2">
+          </Link>
+          <Link href="/products/" className="flex flex-col items-center gap-1/2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -239,8 +239,8 @@ export default function Navbar() {
               />
             </svg>
             <span className="text-[10px]">التصنيفات</span>
-          </li>
-          <li className="flex flex-col items-center gap-1/2">
+          </Link>
+          <Link href="/cart" className="flex flex-col items-center gap-1/2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"
@@ -256,7 +256,7 @@ export default function Navbar() {
               </g>
             </svg>
             <span className="text-[10px]">السله</span>
-          </li>
+          </Link>
           <li className="flex flex-col items-center gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
