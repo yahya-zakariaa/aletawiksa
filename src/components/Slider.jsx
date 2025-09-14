@@ -48,11 +48,12 @@ export default function Slider() {
           disableOnInteraction: false,
         }}
         breakpoints={{
-          320: { slidesPerView: 1.5 }, // موبايل
-          640: { slidesPerView: 2 }, // تابلت
+          320: { slidesPerView: 1.2 }, // موبايل
+          540: { slidesPerView: 2 }, // تابلت
           1024: { slidesPerView: 3 }, // لاب توب
           1280: { slidesPerView: 4 }, // شاشات أكبر
         }}
+        spaceBetween={20}
         loop={true}
         navigation={{
           prevEl: prevRef.current,
@@ -65,20 +66,22 @@ export default function Slider() {
           swiper.navigation.update();
         }}
         modules={[Autoplay, Navigation]}
-        className="mySwiper"
+        className="mySwiper overflow-hidden rounded-2xl"
       >
         {phones.apple.map((p, i) => (
-          <SwiperSlide key={i}>
-            <Link href={`/products/${p.category}/${p.type}/${p.id}`} className="product px-5 block">
-              <div className="image aspect-square">
+          <SwiperSlide key={i} className="">
+            <Link
+              href={`/products/${p.category}/${p.type}/${p.id}`}
+              className="product px-3 py-4 rounded-2xl bg-white   block  "
+            >
+              <div className="image aspect-[3/3.5] w-full relative">
                 <Image
                   src={p.image}
                   alt={p.name}
-                  width={200}
-                  height={200}
+                  fill
                   quality={100}
                   unoptimized
-                  className=" mx-auto  rounded-lg"
+                  className=" mx-auto aspect-square max-w-[230px] max-h-[300px]  rounded-lg"
                 />
               </div>
               <h3 className="text-sm font-semibold mt-2">{p.name}</h3>
@@ -93,7 +96,10 @@ export default function Slider() {
                   خصم {p.discount}%
                 </span>
               </div>
-              <button onClick={()=> addToCart(p)} className="bg-[#4d1572] text-white w-full py-2 rounded-md my-5 flex items-center justify-center gap-2 hover:bg-[#6b1fa3] transition-colors cursor-pointer">
+              <button
+                onClick={() => addToCart(p)}
+                className="bg-[#4d1572] text-white w-full py-2 rounded-md mt-5 flex items-center justify-center gap-2 hover:bg-[#6b1fa3] transition-colors cursor-pointer"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"

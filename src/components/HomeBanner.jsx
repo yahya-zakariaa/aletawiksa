@@ -19,38 +19,39 @@ export default function HomeBanner() {
           delay: 2500,
           disableOnInteraction: false,
         }}
+        spaceBetween={50}
         loop={true}
         modules={[Autoplay]}
-        className="mySwiper"
+        className="mySwiper overflow-hidden rounded-2xl"
       >
         <SwiperSlide>
           <Image
-            src={"/banner3.webp"}
+            src={"/banner3.jpg"}
             width={200}
             height={200}
             quality={100}
             unoptimized
-            className="w-full h-full  aspect-[3/1.25] object-cover rounded-lg"
+            className="w-full  mx-auto md:aspect-[3/1.5] md:object-cover   aspect-[2/1.7] rounded-2xl  "
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={"/banner4.png"}
+            src={"/banner2.jpg"}
             width={200}
             height={200}
             quality={100}
             unoptimized
-            className="w-full h-full  aspect-[3/1.25] object-cover rounded-lg"
+            className="w-full  mx-auto md:aspect-[3/1.5] md:object-cover   aspect-[2/1.7] rounded-2xl  "
           />
         </SwiperSlide>
         <SwiperSlide>
           <Image
-            src={"/banner5.jpg"}
+            src={"/banner1.jpg"}
             width={200}
             height={200}
             quality={100}
             unoptimized
-            className="w-full h-full  aspect-[3/1.25] object-cover rounded-lg"
+            className="w-full  mx-auto md:aspect-[3/1.5] md:object-cover   aspect-[2/1.7] rounded-2xl  "
           />
         </SwiperSlide>
       </Swiper>
