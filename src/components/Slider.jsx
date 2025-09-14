@@ -85,8 +85,8 @@ export default function Slider() {
                 />
               </div>
               <h3 className="text-sm font-semibold mt-2">{p.name}</h3>
-              <p className="text-xs text-gray-500">
-                {p.description.substring(0, 60)}...
+              <p className="text-xs text-gray-500 line-clamp-1">
+                {p.description}
               </p>
               <div className="flex items-center justify-between mt-2">
                 <span className="text-lg font-bold text-[#4d1572]">
