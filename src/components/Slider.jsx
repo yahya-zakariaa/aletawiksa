@@ -78,7 +78,7 @@ export default function Slider() {
                   height={200}
                   quality={100}
                   unoptimized
-                  className="h-full mx-auto  rounded-lg"
+                  className=" mx-auto  rounded-lg"
                 />
               </div>
               <h3 className="text-sm font-semibold mt-2">{p.name}</h3>

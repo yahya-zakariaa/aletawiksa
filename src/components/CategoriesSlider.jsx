@@ -43,7 +43,7 @@ export default function CategoriesSlider() {
         className="mySwiper "
       >
         {categories.map((c, i) => (
-          <SwiperSlide key={i} className="p-10">
+          <SwiperSlide key={i} className="px-5">
             <div className="category relative aspect-[1/1] rounded-lg overflow-hidden">
               <Image
                 src={c.image}
