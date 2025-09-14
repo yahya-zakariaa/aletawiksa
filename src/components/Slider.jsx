@@ -11,10 +11,35 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Navigation } from "swiper/modules";
 import Image from "next/image";
+import { toast } from "sonner";
+import Link from "next/link";
 export default function Slider() {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
+  const addToCart = (product) => {
+    try {
+      const cartProducts = localStorage.getItem("cart");
+      let cart = cartProducts ? JSON.parse(cartProducts) : [];
 
+      // التحقق مما إذا كان المنتج موجودًا بالفعل في السلة
+      const existingProductIndex = cart.findIndex((p) => p.id === product.id);
+
+      if (existingProductIndex !== -1) {
+        // إذا كان المنتج موجودًا، نزيد الكمية فقط
+        cart[existingProductIndex].quantity += 1;
+        toast.info("تم زيادة كمية المنتج في السلة", { duration: 3000 });
+      } else {
+        // إذا لم يكن المنتج موجودًا، نضيفه مع كمية = 1
+        cart.push({ ...product, quantity: 1 });
+        toast.success("تم إضافة المنتج إلى السلة بنجاح!", { duration: 3000 });
+      }
+
+      localStorage.setItem("cart", JSON.stringify(cart));
+    } catch (error) {
+      console.error("Error adding to cart:", error);
+      toast.error("حدث خطأ أثناء إضافة المنتج إلى السلة", { duration: 3000 });
+    }
+  };
   return (
     <>
       <Swiper
@@ -22,9 +47,13 @@ export default function Slider() {
           delay: 3000,
           disableOnInteraction: false,
         }}
-        slidesPerView={3}
+        breakpoints={{
+          320: { slidesPerView: 1.5 }, // موبايل
+          640: { slidesPerView: 2 }, // تابلت
+          1024: { slidesPerView: 3 }, // لاب توب
+          1280: { slidesPerView: 4 }, // شاشات أكبر
+        }}
         loop={true}
-        spaceBetween={20}
         navigation={{
           prevEl: prevRef.current,
           nextEl: nextRef.current,
@@ -40,8 +69,8 @@ export default function Slider() {
       >
         {phones.apple.map((p, i) => (
           <SwiperSlide key={i}>
-            <div className="product px-20">
-              <div className="image aspect-[1/1.2]">
+            <Link href={`/products/${p.category}/${p.type}/${p.id}`} className="product px-5 block">
+              <div className="image aspect-square">
                 <Image
                   src={p.image}
                   alt={p.name}
@@ -49,7 +78,7 @@ export default function Slider() {
                   height={200}
                   quality={100}
                   unoptimized
-                  className="w-full h-full   rounded-lg"
+                  className="h-full mx-auto  rounded-lg"
                 />
               </div>
               <h3 className="text-sm font-semibold mt-2">{p.name}</h3>
@@ -64,7 +93,7 @@ export default function Slider() {
                   خصم {p.discount}%
                 </span>
               </div>
-              <button className="bg-[#4d1572] text-white w-full py-2 rounded-md my-5 flex items-center justify-center gap-2 hover:bg-[#6b1fa3] transition-colors cursor-pointer">
+              <button onClick={()=> addToCart(p)} className="bg-[#4d1572] text-white w-full py-2 rounded-md my-5 flex items-center justify-center gap-2 hover:bg-[#6b1fa3] transition-colors cursor-pointer">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -84,17 +113,17 @@ export default function Slider() {
                 </svg>
                 أضف للسله
               </button>
-            </div>
+            </Link>
           </SwiperSlide>
         ))}
         <button
           ref={nextRef}
-          className="absolute z-50 cursor-pointer left-0 top-1/2 -translate-y-1/2 text-[#4d1572] "
+          className="absolute z-50 cursor-pointer left-0 top-1/2 -translate-y-1/2 bg-[#4d1572] text-[#fff] rounded-full p-3 "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="20"
+            height="20"
             viewBox="0 0 7 16"
           >
             <path
@@ -105,12 +134,12 @@ export default function Slider() {
         </button>
         <button
           ref={prevRef}
-          className="absolute right-0 z-50 cursor-pointer top-1/2 -translate-y-1/2 text-[#4d1572]"
+          className="absolute right-0 z-50 cursor-pointer top-1/2 -translate-y-1/2 bg-[#4d1572] text-[#fff] rounded-full p-3"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="20"
+            height="20"
             viewBox="0 0 7 16"
           >
             <path

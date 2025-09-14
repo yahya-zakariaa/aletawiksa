@@ -104,7 +104,7 @@ export default function ProductDetailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 mt-20 py-8">
+    <div className="min-h-screen bg-gray-50 mt-40 py-8">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* مسار التنقل */}
@@ -117,14 +117,14 @@ export default function ProductDetailPage() {
               المنتجات
             </a>
             <span className="mx-2">/</span>
+            <span className="text-gray-800">{product.name}</span>
+            <span className="mx-2">/</span>
             <a
               href={`/category/${params.category}`}
               className="hover:text-[#4d1572] capitalize"
             >
               {params.category}
             </a>
-            <span className="mx-2">/</span>
-            <span className="text-gray-800">{product.name}</span>
           </nav>
 
           <div className="flex flex-col md:flex-row gap-8 bg-white rounded-xl shadow-md p-6">

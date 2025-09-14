@@ -21,7 +21,12 @@ export default function CategoriesSlider() {
           delay: 3000,
           disableOnInteraction: false,
         }}
-        slidesPerView={3.2}
+        breakpoints={{
+          320: { slidesPerView: 1.5 }, // موبايل
+          640: { slidesPerView: 2.5 }, // تابلت
+          1024: { slidesPerView: 3.5 }, // لاب توب
+          1280: { slidesPerView: 4 }, // شاشات أكبر
+        }}
         loop={true}
         spaceBetween={20}
         navigation={{
@@ -57,12 +62,12 @@ export default function CategoriesSlider() {
         ))}
         <button
           ref={nextRef}
-          className="absolute z-50 cursor-pointer left-0 top-1/2 -translate-y-1/2 text-[#4d1572] "
+          className="absolute z-50 cursor-pointer left-0 top-1/2 -translate-y-1/2 bg-[#4d1572] text-[#fff] rounded-full p-3 "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="20"
+            height="20"
             viewBox="0 0 7 16"
           >
             <path
@@ -73,12 +78,12 @@ export default function CategoriesSlider() {
         </button>
         <button
           ref={prevRef}
-          className="absolute right-0 z-50 cursor-pointer top-1/2 -translate-y-1/2 text-[#4d1572]"
+          className="absolute right-0 z-50 cursor-pointer top-1/2 -translate-y-1/2 bg-[#4d1572] text-[#fff] rounded-full p-3"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
+            width="20"
+            height="20"
             viewBox="0 0 7 16"
           >
             <path
