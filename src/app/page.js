@@ -1,5 +1,6 @@
 import CategoriesSlider from "@/components/CategoriesSlider";
 import HomeBanner from "@/components/HomeBanner";
+import Iphone17 from "@/components/Iphone17";
 import NewProducts from "@/components/NewProducts";
 import Slider from "@/components/Slider";
 import Image from "next/image";
@@ -10,6 +11,17 @@ export default function Home() {
     <main className="flex  flex-col items-center justify-between ">
       <div className="container w-[95%] md:w-[85%] overflow-hidden   mx-auto pt-36">
         <HomeBanner />
+      </div>
+      <div className="container w-[95%] md:w-[85%]    mx-auto mt-14 ">
+        <div className="bg-[#4d1572] w-full rounded-2xl pb-12 md:pb-16 pt-7 px-2 relative">
+          <div className="header mb-10 ">
+            <h2 className="text-3xl  font-bold text-center w-fit mx-auto text-white  ">
+              الجديد
+            </h2>
+          </div>
+
+          <Iphone17 />
+        </div>
       </div>
       <div className="container w-[95%] md:w-[85%]    mx-auto mt-14 ">
         <div className="bg-[#4d1572] w-full rounded-2xl pb-12 md:pb-16 pt-7 px-2 relative">
