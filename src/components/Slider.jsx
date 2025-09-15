@@ -85,14 +85,14 @@ export default function Slider() {
               className="product sm:px-3 p-2 sm:py-4 rounded-2xl bg-white    block  w-full  "
             >
               <div className="flex sm:flex-row flex-col items-center sm:items-start gap-4">
-                <div className="image sm:aspect-[3/3.3] aspect-[3/3.5] w-full relative max-w-[100%] sm:max-w-[35%] h-full">
+                <div className="image sm:aspect-[3/3.3] aspect-[1.8/1.2] w-full relative max-w-[100%] sm:max-w-[35%] h-full">
                   <Image
                     src={p.image}
                     alt={p.name}
                     fill
                     quality={100}
                     unoptimized
-                    className=" mx-auto aspect-square max-w-[230px] max-h-[300px]  rounded-lg"
+                    className=" mx-auto aspect-square md:max-w-[230px] max-w-[130px] md:max-h-[300px] max-h-[180px]  rounded-lg"
                   />
                 </div>
                 <div className="flex flex-col justify-between sm:px-3 w-full sm:max-w-[70%]">
