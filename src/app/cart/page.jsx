@@ -33,7 +33,7 @@ export default function CartPage() {
 
   const calculateTotal = () => {
     return products.reduce((total, product) => {
-      return total + product.price * product.quantity;
+      return total + product.price.split(" ")[0] * product.quantity;
     }, 0);
   };
 
@@ -89,18 +89,18 @@ export default function CartPage() {
               {products.map((product) => (
                 <div
                   key={product.id}
-                  className="flex flex-col sm:flex-row border-b border-gray-200 last:border-b-0 p-4"
+                  className="flex flex-col sm:flex-row border-b items-center border-gray-200 last:border-b-0 p-4"
                 >
-                  <div className="sm:w-32 h-32 aspect-square relative mb-4 sm:mb-0">
+                  <div className="md:w-[20%] w-full overflow-hidden rounded-xl  aspect-square relative mb-4 sm:mb-0">
                     <Image
                       src={product.image}
                       alt={product.name}
                       fill
-                      className="object-contain"
+                      className="object-contain scale-195 w-full "
                     />
                   </div>
 
-                  <div className="flex-grow sm:px-4">
+                  <div className="flex-grow sm:px-4 flex flex-col sm:items-start items-center text-center sm:text-left  sm:mb-0 mb-4">
                     <h3 className="text-lg font-semibold text-gray-800">
                       {product.name}
                     </h3>
@@ -110,11 +110,11 @@ export default function CartPage() {
 
                     <div className="flex items-center mt-4">
                       <span className="text-lg font-bold text-[#4d1572]">
-                        {product.price.toLocaleString()} ر.س
+                        {product.price.toLocaleString()}
                       </span>
-                      {product.discount > 0 && (
+                      {product.disc > 0 && (
                         <span className="text-sm text-red-600 bg-red-100 px-2 py-1 rounded-full mr-3">
-                          خصم {product.discount}%
+                          خصم {product.disc}%
                         </span>
                       )}
                     </div>
@@ -196,8 +196,8 @@ export default function CartPage() {
                       .reduce((total, product) => {
                         return (
                           total +
-                          product.price *
-                            (product.discount / 100) *
+                          product.price.split(" ")[0] *
+                            (product.disc / 100) *
                             product.quantity
                         );
                       }, 0)
@@ -215,8 +215,8 @@ export default function CartPage() {
                         products.reduce((total, product) => {
                           return (
                             total +
-                            product.price *
-                              (product.discount / 100) *
+                            product.price.split(" ")[0] *
+                              (product.disc / 100) *
                               product.quantity
                           );
                         }, 0)

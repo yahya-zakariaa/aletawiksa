@@ -1,0 +1,166 @@
+{
+  "playstations": [
+    {
+      "name": "جهاز بلايستيشن 5 نسخة اقراص",
+      "price": "2225.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/a0dfe4a3-2643-4448-8479-8a5391b309b9-thumbnail-370x370.png",
+      "disc": 12,
+      "category": "gaming",
+      "type": "playstation"
+    },
+    {
+      "name": "بلايستيشن 5 نسخة ديجيتال",
+      "price": "1999.00 ر.س",
+      "image": "https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/06/199822/2.jpg",
+      "disc": 12,
+      "category": "gaming",
+      "type": "playstation"
+    },
+    {
+      "name": "بلايستيشن 5 نسخة اقراص مع وحدة تحكم اضافية",
+      "price": "2399.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/553005fa-32d4-48fd-b2c5-c274860a6731-thumbnail-770x770.png",
+      "disc": 12,
+      "category": "gaming",
+      "type": "playstation"
+    },
+    {
+      "name": "بلايستيشن 5 نسخة اقراص مع وحدة تحكم اضافية و لعبة GT7",
+      "price": "2650.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/18301659-da2a-447c-9b5c-407ad035953d-thumbnail-770x770.png",
+      "disc": 12,
+      "category": "gaming",
+      "type": "playstation"
+    },
+    {
+      "name": "جهاز نينتندو سويتش نسخة ممتدة البطارية (احمر ازرق)",
+      "price": "1359.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/a50241ae-152d-45f0-a1c5-2ca626d329f6-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "gaming",
+      "type": "nintendo"
+    },
+    {
+      "name": "جهاز نينتندو سويتش اوليد ابيض",
+      "price": "1620.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/a50241ae-152d-45f0-a1c5-2ca626d329f6-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "gaming",
+      "type": "nintendo"
+    }
+  ],
+  "games": [
+    {
+      "name": "FIFA 23",
+      "price": "210.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/3a1f9336-e93b-4ed9-9187-290799d16a2b-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "Dolmen",
+      "price": "195.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/544a08a3-7052-402a-bf8d-a54796d287b7-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "Watch Dogs Legion",
+      "price": "85.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/89d5cf6c-f596-4cbe-bc2a-b442d47d6c93-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "SCARLET NEXUS",
+      "price": "75.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/4d87b475-04f6-4f19-a1d3-b223a341e272-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "NBA 2K22 75th Anniversary Edition",
+      "price": "185.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/97ac7c3a-1a87-41f3-b825-7c891a956ee4-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "Evil Dead: The Game",
+      "price": "140.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/3c2acb58-28c1-4feb-826a-c01037a1ee22-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "LEGO Star Wars: The Skywalker Saga",
+      "price": "189.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/b2c8f59e-a0d6-4043-9816-c9b807cea11e-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "Life is Strange",
+      "price": "160.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/94687f9e-471c-4587-9fc5-7facd83bc8ef-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "Crash Bandicoot 4",
+      "price": "189.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/898d2ffd-1877-46a4-94af-4b5bd95ebb18-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "1-2-Switch",
+      "price": "189.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/c4a48a9e-604b-4f79-be66-fbcb5b3f56ef-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "Rocket League Collector's Edition - Nintendo Switch",
+      "price": "180.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/2691527f-f07e-46b6-8f75-b5cf4a300548-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "gaming",
+      "type": "nintendo"
+    },
+    {
+      "name": "The Cruel King and the Great Hero Storybook Edition",
+      "price": "189.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/0e60133e-50cc-405d-bada-dd43293a8f92-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "Shin Megami Tensei V",
+      "price": "189.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/d966ebd5-a3b2-4f32-92be-eb94d8342837-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    },
+    {
+      "name": "Tony Hawk Pro Skater 1 and 2",
+      "price": "120.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/fe523447-43b0-498b-8424-678f8d0f9c88-thumbnail-770x770-70.jpg",
+      "disc": 12,
+      "category": "",
+      "type": ""
+    }
+  ]
+}

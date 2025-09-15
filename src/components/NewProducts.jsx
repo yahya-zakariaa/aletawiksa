@@ -51,7 +51,7 @@ export default function NewProducts() {
         }}
         breakpoints={{
           320: { slidesPerView: 2, spaceBetween: 10 }, // موبايل
-          540: { slidesPerView: 5 }, // تابلت
+          540: { slidesPerView: 6 }, // تابلت
         }}
         spaceBetween={10}
         loop={true}
@@ -76,36 +76,35 @@ export default function NewProducts() {
         modules={[Autoplay, Navigation, Pagination]}
         className="mySwiper overflow-hidden rounded-2xl"
       >
-        {phones.news.map((p, i) => (
+        {phones.new1.map((p, i) => (
           <SwiperSlide key={i} className="">
             <Link
               href={`/products/${p.category}/${p.type}/${p.id}`}
-              className="product sm:px-3 p-2 sm:py-4 rounded-2xl bg-white    block  w-full  "
+              className="product sm:px-3 p-2 sm:py-4 rounded-2xl bg-white  overflow-hidden   block  w-full h-fit  "
             >
-              <div className="flex  flex-col items-center sm:items-start gap-2">
-                <div className="image sm:aspect-[1/.6] aspect-[1/.6] w-full relative   h-full">
+              <div className="flex flex-col gap-2  ">
+                <div className="image col-span-12  w-full h-[180px] overflow-hidden rounded-2xl  relative  ">
                   <Image
                     src={p.image}
                     alt={p.name}
                     fill
                     quality={100}
                     unoptimized
-                    className=" mx-auto  md:max-w-[70px] max-w-[90px] md:max-h-[90px] max-h-[115px]  "
+                    className={` mx-auto w-full rounded-2xl  ${
+                      p.type !== "samsung" ? "scale-135  object-cover" : " object-contain"
+                    }   `}
                   />
                 </div>
-                <div className="flex flex-col justify-between  w-full ">
-                  <h3 className="sm:text-sm text-xs w-full text-nowrap">
+                <div className=" justify-between   w-full block h-fit ">
+                  <h3 className="sm:text-sm text-xs w-full line-clamp-1">
                     {p.name}
                   </h3>
-                  <p className="text-xs text-gray-500 line-clamp-1">
-                    {p.description}
-                  </p>
                   <div className="flex items-center justify-between sm:mt-5 mt-8">
                     <span className="sm:text-md text-[14px] font-bold text-[#333] ">
-                      {p.price} ر.س
+                      {p.price}
                     </span>
                     <span className="text-[10px] text-red-500 bg-red-100 sm:px-2 sm:py-1 px-1 py-0.5 rounded">
-                      خصم {p.discount}%
+                      خصم {p.disc}%
                     </span>
                   </div>
                   <button

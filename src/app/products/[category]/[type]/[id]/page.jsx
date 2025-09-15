@@ -104,7 +104,7 @@ export default function ProductDetailPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 mt-40 py-8">
+    <div className="min-h-screen bg-gray-50 md:mt-38 mt-16 py-8">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* مسار التنقل */}
@@ -135,7 +135,7 @@ export default function ProductDetailPage() {
                   src={`${product.image}`}
                   alt={product.name}
                   fill
-                  className="object-contain"
+                  className={`object-cover`}
                   unoptimized
                   quality={100}
                 />

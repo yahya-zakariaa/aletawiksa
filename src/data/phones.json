@@ -1,652 +1,1000 @@
 {
-  "apple": [
+  "iphone": [
     {
-      "id": 1,
-      "name": "iPhone 13",
-      "description": "يأتي iPhone 13 بشاشة Super Retina XDR ساطعة ومذهلة، ويضم نظام الكاميرات المتقدم الذي يحقق قفزة هائلة في أداء التصوير في الظروف المنخفضة الإضاءة. يعمل بهذا الجهاز شريحة A15 Bionic الأسرع في عالم الهواتف الذكية، مما يمنحك أداءً فائقًا وكفاءة في استهلاك الطاقة. كما يتميز بمقاومة الماء والغبار (IP68) وتحسينات كبيرة في عمر البطارية.",
+      "id": "9913493991",
+      "name": "iPhone 17 Pro Max - فضي",
+      "price": "5699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-9inch-silver?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RVRqUkJqUGFyN1pGMnlaV3JkWU9jdjF1TmpsTkNoRVRMR1N6UXlVZFBaU0NYR1ZZZnEyMVlVQUliTThGMjNyaFR2eUMvb2haNXNmNzdKdWt0U1ZQdytrdUpTeWc3ZDMyOXoxZzZsN2h4QUpn&traceId=1",
+      "disc": 10,
       "category": "phones",
-      "type": "apple",
-      "price": 2999,
-      "discount": 6,
-      "image": "/iphone-13.jpg",
-      "colors": [
-        {
-          "name": "أزرق"
-        },
-        {
-          "name": "وردي"
-        },
-        {
-          "name": "منتصف الليل"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 2,
-      "name": "iPhone 13 Pro",
-      "description": "iPhone 13 Pro هو الهاتف الذكي المحترف من Apple. يتميز بشاشة ProMotion بتقنية 120Hz لتجربة سلسة ادة. يحتوي على نظام كاميرات ثلاثي محسن مع إمكانية التصوير الماكرو وتصوير الفيديو بصيغة Cinematic Mode. مدعوم بشريحة A15 Bionic مع وحدة معالجة رسومات 5-core لأداء الألعاب والمهام الثقيلة. كما يتضمن ميزات pro مثل ProRes video recording و LiDAR Scanner.",
+      "id": "0514680231",
+      "name": "iPhone 17 Pro Max -  برتقالي كوني",
+      "price": "5699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-9inch-cosmicorange?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RnVrUzFnTVVSUnNLVnZUWUMxNTBGaGhsQTdPYWVGbmdIenAvNE9qYmZVYVFDb1F2RTNvUEVHRkpGaGtOSVFHak5NTEhXRE11VU1QNVo2eDJsWlpuWHQ0UUFVR2VKbG01TlNLQjF0NGpPTGpn&traceId=1",
+      "disc": 23,
       "category": "phones",
-      "type": "apple",
-      "price": 3699,
-      "discount": 6,
-      "image": "/iphone-13-pro.jpg",
-      "colors": [
-        {
-          "name": "السييريوس الأزرق"
-        },
-        {
-          "name": "الفضي"
-        },
-        {
-          "name": "الذهبي"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 3,
-      "name": "iPhone 13 Pro Max",
-      "description": "أكبر وأقوى هاتف في سلسلة iPhone 13. يجمع iPhone 13 Pro Max بين جميع ميزات الـ Pro مع شاشة كبيرة Super Retina XDR بحجم 6.7 بوصة، مما يمنحك مساحة عمل وترفيه فسيحة. يتميز بأفضل عمر بطارية في فئته، مما يجعله مثاليًا للاستخدام المكثف طوال اليوم. نظام الكاميرات المحترف يوفر أكبر مست感س للضوء (sensor) في iPhone حتى الآن لتحقيق جودة تصوير مذهلة في أي ظرف.",
+      "id": "6356495087",
+      "name": "iPhone 17 Pro Max - نيلي عميق",
+      "price": "5699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-9inch-deepblue?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RWhhOHJGRUNHdlh6a3VuZVVqdnNrNXVHdDcxbVFRSnhaQ0pnV1pOaG5KaGhNQnJMcnc4RkxJd3ZMc3hKZVVFWHVXenRLWlZCb0tkUFpoSnR6NVNhUVducEFkWDhWNjJ3MFplaEowdVdua1Fn&traceId=1",
+      "disc": 13,
       "category": "phones",
-      "type": "apple",
-      "price": 4099,
-      "discount": 6,
-      "image": "/iphone-13-pro-max.jpg",
-      "colors": [
-        {
-          "name": "الغرافيتي"
-        },
-        {
-          "name": "الذهبي"
-        },
-        {
-          "name": "السييريوس الأزرق"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 4,
-      "name": "iPhone 14",
-      "description": "يقدم iPhone 14 تحسينات كبيرة في الأداء والكاميرا. يتميز بتصميم متين مع زجاج أمامي أقوى، ونظام كاميرات مزدوج محسن مع استشعار ضوئي رئيسي أكبر واستقرار البصري للفيديو. يحتوي على ميزة Safety Emergency via satellite و Crash Detection. يعمل بشريحة A15 Bionic القوية لضمان أداء سريع وسلس لكافة التطبيقات والألعاب.",
+      "id": "8900437181",
+      "name": "iPhone 17 Pro - فضي",
+      "price": "5199.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-3inch-silver?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RzRIN3Q2Z245Z1F3L1paWlRjZnl6YTF1TmpsTkNoRVRMR1N6UXlVZFBaU0NYR1ZZZnEyMVlVQUliTThGMjNyaFJrcEd1clY3WVFlSUNyM3IrZEFuRFR6ODEvU2tiaXNzQWszNEFkL3JOSDlR&traceId=1",
+      "disc": 20,
       "category": "phones",
-      "type": "apple",
-      "price": 3199,
-      "discount": 6,
-      "image": "/iphone-14.jpg",
-      "colors": [
-        {
-          "name": "أزرق"
-        },
-        {
-          "name": "أرجواني"
-        },
-        {
-          "name": "نجمة منتصف الليل"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 5,
-      "name": "iPhone 14 Pro",
-      "description": "شهد iPhone 14 Pro نقلة نوعية مع تقديم Dynamic Island، طريقة تفاعل جديدة وذكية مع الإشعارات والنشاط الحي. يأتي بشاشة Always-On Display و Super Retina XDR بحدة وضوح تصل إلى 2000 nits. نظام الكاميرا الجديد بجودة 48MP يلتقط تفاصيل مذهلة، مدعومًا ببرنامج Photonic Engine لمعالجة الصور. يعمل بشريحة A16 Bionic الأسرع والأكثر كفاءة في استهلاك الطاقة.",
+      "id": "3552603862",
+      "name": "iPhone 17 Pro -  برتقالي كوني",
+      "price": "5199.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-3inch-cosmicorange?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RUlmWnJkM2NiV2hVVVF2ZE1VdGpQZWhsQTdPYWVGbmdIenAvNE9qYmZVYVFDb1F2RTNvUEVHRkpGaGtOSVFHak5NTEhXRE11VU1QNVo2eDJsWlpuWHRkVU9UVVBIM3VaNkIwZDNjTFVDTkln&traceId=1",
+      "disc": 27,
       "category": "phones",
-      "type": "apple",
-      "price": 3899,
-      "discount": 6,
-      "image": "/iphone-14-pro.jpg",
-      "colors": [
-        {
-          "name": "البنفسجي العميق"
-        },
-        {
-          "name": "الفضي"
-        },
-        {
-          "name": "الذهبي"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 6,
-      "name": "iPhone 14 Pro Max",
-      "description": "يمثل iPhone 14 Pro Max ذروة الابتكار من Apple. يجمع بين ميزة Dynamic Island الثورية وشاشة ProMotion الكبيرة والرائعة بحجم 6.7 بوصة. يتمتع بأفضل أداء على الإطلاق بفضل شريحة A16 Bionic، ونظام الكاميرا Pro الذي تمت ترقيته بشكل جذري مع حساس أساسي بدقة 48 ميجابكسل لتفاصيل غير مسبوقة. يقدم أطول عمر بطارية في عالم iPhone، مما يجعله الخيار الأمثل للمستخدمين المتميزين.",
+      "id": "3549222329",
+      "name": "iPhone 17 Pro - نيلي عميق",
+      "price": "5199.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-3inch-deepblue?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RUczK3M0RVhxWWpFZXJsZzlEU0tTSHVHdDcxbVFRSnhaQ0pnV1pOaG5KaGhNQnJMcnc4RkxJd3ZMc3hKZVVFWHVpT1Z6NWMwNURPMDlnZXlyQlY4dlVwYS9BYWxBUFY3NVFZRnlMNGI1MGh3&traceId=1",
+      "disc": 6,
       "category": "phones",
-      "type": "apple",
-      "price": 4299,
-      "discount": 6,
-      "image": "/iphone-14-pro-max.jpg",
-      "colors": [
-        {
-          "name": "الفضي"
-        },
-        {
-          "name": "الذهب"
-        },
-        {
-          "name": "البنفسجي العميق"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 7,
-      "name": "iPhone 15",
-      "description": "يأتي iPhone 15 بتصميم جديد مع حواف مريحة ومواد أكثر متانة. يتميز بشاشة Super Retina XDR ساطعة وواضحة، ونظام كاميرا مزدوج متطور مع عدسة مقربة جديدة بدقة 48MP لصور ذات جودة احترافية. يدعم USB-C للشحن ونقل البيانات بسرعات أعلى. يعمل بشريحة A16 Bionic لتجربة أداء سريعة وفعالة، مع ميزات جديدة مثل تحسين التعرف على الوجه في الظلام.",
+      "id": "5396904189",
+      "name": "iPhone 17 - ليلكي ناعم",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-lavender_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxbGoraU1aeXdWbEh0SUtyMmtxWGg5c2I5OTFWTU9uL0JzeUM0bk9aSE5BOGxjZnhHRHJyenVmME5KTm9Sd1ZaU3NqbWRhTGpRM2xxVWJRWUhSaDlCQ3FRcTR3M2kzamNuYXZZV0tTSng3bFR1YmZQMXFXa2w0U3RUanhYSTV4Z29R&traceId=1",
+      "disc": 10,
       "category": "phones",
-      "type": "apple",
-      "price": 3399,
-      "discount": 6,
-      "image": "/iphone-15.jpg",
-      "colors": [
-        {
-          "name": "الأزرق"
-        },
-        {
-          "name": "الوردي"
-        },
-        {
-          "name": "الأخضر"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 8,
-      "name": "iPhone 15 Pro",
-      "description": "iPhone 15 Pro هو الهاتف المحترف المصنوع من التيتانيوم، مما يجعله أخف وزنًا وأكثر متانة. يتميز بزرAction جديد وقابل للتخصيص. يحتوي على نظام كاميرات Pro متكامل مع عدسة تليفوتوغرافي بدقة 5x، مدعومًا بمعالج الصور الجديد لتحسين جودة الصور والفيديو. يعمل بأقوى شريحة حتى الآن A17 Pro، التي توفر أداءً هائلاً في الرسومات والألعاب، مع دعم USB-C بسرعات فائقة.",
+      "id": "1912368691",
+      "name": "iPhone 17 -  أخضر رمادي",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-sage_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxZ3VBTlNROXF1MzBwZUoyNEVtMWw3aC8xK3Z0ZStkS2NYQTZHRzkxSysyV2d2S3NaRzcrU0dmYjNHTUFiMnlsWFUxSlgrVWMrMzU1OXo2c2JyNjJZTGg1dFdZVGxNWWRNUkhqdzB1RkRJYUo&traceId=1",
+      "disc": 2,
       "category": "phones",
-      "type": "apple",
-      "price": 4099,
-      "discount": 6,
-      "image": "/iphone-15-pro.jpg",
-      "colors": [
-        {
-          "name": "تيتانيوم طبيعي"
-        },
-        {
-          "name": "تيتانيوم أزرق"
-        },
-        {
-          "name": "تيتانيوم أبيض"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 9,
-      "name": "iPhone 15 Pro Max",
-      "description": "أقوى iPhone على الإطلاق. يجمع iPhone 15 Pro Max بين تصميم التيتانيوم الفاخر والخفة، وأداء شريحة A17 Pro الثورية التي تعيد تعريف قوة الهاتف الذكي، خاصة في الألعاب والتطبيقات الواقع المعزز. يحتوي على نظام الكاميرا الأكثر تقدمًا، بما في ذلك العدسة التليفوتوغرافي بدقة 5x المخصصة لهذا الموديل. يوفر أقصى أداء وشاشة كبيرة رائعة للمحترفين وهواة المحتوى على حد سواء.",
+      "id": "2565982481",
+      "name": "iPhone 17 - أزرق ضبابي",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-mistblue_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxcFYyWWhPSUg0YytZdmJ2dmY4d09xcjZyWjhTTFhxYW1jNmNBcUtPK3p3OWxjZnhHRHJyenVmME5KTm9Sd1ZaU3NqbWRhTGpRM2xxVWJRWUhSaDlCQ3JCZlBIK1BreHJ5bFV6cGlFbFh4elJRRXB6YUhNcms5Z1pYZXdkbUhocnBn&traceId=1",
+      "disc": 16,
       "category": "phones",
-      "type": "apple",
-      "price": 4499,
-      "discount": 6,
-      "image": "/iphone-15-pro-max.jpg",
-      "colors": [
-        {
-          "name": "تيتانيوم أسود"
-        },
-        {
-          "name": "تيتانيوم طبيعي"
-        },
-        {
-          "name": "تيتانيوم أزرق"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 10,
-      "name": "iPhone 16",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يأتي iPhone 16 بتصميم جديد، شاشة أكثر تقدمًا، نظام كاميرات معاد تصميمه بشكل جذري، وأداء غير مسبوق بفضل شريحة A18 Bionic الجديدة. من المتوقع أيضًا تحسينات كبيرة في الذكاء الاصطناعي والواقع المعزز وكفاءة البطارية. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "0410052713",
+      "name": "iPhone 17 - أبيض",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-white_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxclZmSzgzdlhzQS95ekpRalhXU0JMVVYyZEJVVE0xRm5UWEk5N1NiYWsrR3F2TWlpSzUzejRCZGt2SjJUNGl1VEE4bm1RcmlWRWp2eDN1WHNkSjNmUmFBM2k0bTFnNDVHV0FuRjVwdjVQNzQ&traceId=1",
+      "disc": 15,
       "category": "phones",
-      "type": "apple",
-      "price": 3999,
-      "discount": 6,
-      "image": "/iphone-16.jpg",
-      "colors": [
-        {
-          "name": "Placeholder Black"
-        },
-        {
-          "name": "Placeholder Silver"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 11,
-      "name": "iPhone 16 Pro",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يرفع iPhone 16 Pro المعايير مرة أخرى بتصميم أكثر تطوراً، ربما شاشة أكبر قليلاً مع تقنية ProMotion محسنة. من المتوقع أن يقدم قفزة هائلة في قدرات التصوير والفيديو مع مستشعرات جديدة، وأداء خارق بشريحة A18 Pro. قد تركز الميزات الجديدة على الواقع المعزز والذكاء الاصطناعي التنافسي. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "2480178116",
+      "name": "iPhone 17 -  أسود",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-black_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxa3pYQjBteGp2cFFHL09TNGhVUUhxeHVxTmlKYzQ5Q1RtSitUbnZmZDNpbHF2TWlpSzUzejRCZGt2SjJUNGl1VEE4bm1RcmlWRWp2eDN1WHNkSjNmUmJtSnJrdGtHcGl3N1VPYU1pb0lyTWI&traceId=1",
+      "disc": 13,
       "category": "phones",
-      "type": "apple",
-      "price": 4699,
-      "discount": 6,
-      "image": "/iphone-16-pro.jpg",
-      "colors": [
-        {
-          "name": "Placeholder Graphite"
-        },
-        {
-          "name": "Placeholder Gold"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 12,
-      "name": "iPhone 16 Pro Max",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يكون iPhone 16 Pro Max هو الهاتف الأكثر تقدمًا وابتكارًا في خط إنتاج Apple. قد يأتي بشاشة أكبر حجمًا مع تقنيات عرض جديدة، وبطارية ذات عمر أطول، ونظام كاميرا Pro يقدم إمكانيات تصوير لم يسبق لها مثيل على الهاتف الذكي، كل ذلك مدعوم بأقوى شريحة A18 Pro. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "3735020464",
+      "name": "iPhone Air - أزرق سماوي",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-skyblue_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1Ztb1ZEZUVnNVNNUWtLaS8xRU9vZUdWbWxjZnhHRHJyenVmME5KTm9Sd1ZaU3NqbWRhTGpRM2xxVWJRWUhSaDlCQ3A2V3Zhd0lpNDRoQUcrdVZ5ajY1VGlGQlRRRytmTHd2bTlDU2RZMUtqVTRR&traceId=1",
+      "disc": 27,
       "category": "phones",
-      "type": "apple",
-      "price": 5099,
-      "discount": 6,
-      "image": "iphone-16-pro-max.jpg",
-      "colors": [
-        {
-          "name": "Placeholder Titanium"
-        },
-        {
-          "name": "Placeholder Space Black"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 13,
-      "name": "iPhone 17",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يمثل iPhone 17 نقلة نوعية كبيرة في تصميم وتقنية الهواتف الذكية. قد يشمل ذلك تقنيات شاشة مبتكرة (مثل الشاشة القابلة للطي أو الخالية من القطع)، تطورات ثورية في أنظمة الكاميرا والذكاء الاصطنائي، وأداء غير مسبوق بشريحة A19 Bionic. قد تركز apple أيضًا على الاستدامة باستخدام مواد معاد تدويرها بنسبة أعلى. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "0519778069",
+      "name": "iPhone Air - ذهبي فاتح",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-lightgold_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1ZtclZTMzkyOHlpaEY3dW11QTFUeS9abDhLcXQxZ1h0QThIT2dnUm5qbGk5OUJkSERIUjY1Wk1Od3FtNjF6NFZLVXY2MlgxdDJrbUptdWpGUmZqYndSQXhjcGVPSlVBZ3UzMTZrTm81ODdNWTlR&traceId=1",
+      "disc": 21,
       "category": "phones",
-      "type": "apple",
-      "price": 4299,
-      "discount": 6,
-      "image": "/iphone-17.jpg",
-      "colors": [
-        {
-          "name": "Placeholder Color 1"
-        },
-        {
-          "name": "Placeholder Color 2"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 14,
-      "name": "iPhone 17 Pro Max",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يكون iPhone 17 Pro Max هو ذروة الابتكار التكنولوجي من Apple. قد يجمع بين جميع ميزات الجيل الجديد في هاتف واحد: تصميم ثوري، شاشة كبيرة مذهلة بتقنية جديدة، نظام كاميرا Pro يغير قواعد اللعبة، أداء خارق بشريحة A19 Pro، وتكامل غير مسبوق مع أجهزة apple الأخرى لإنشاء تجربة مستخدم لا تنافس. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "3162769156",
+      "name": "iPhone Air -  أبيض سحابي",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-cloudwhite_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1ZtcU1aUGcwalkvN1J1VFhvdnhUQi8zWlJUdjBJY2Y4eU1nRUl2VXp2OHhKNnlYR1ZZZnEyMVlVQUliTThGMjNyaFRWY0JyaHhkRXEyNlFsTjFpRGZBRHZWOGR2Wm9PdmxBZGdFblZrUmlUTU9R&traceId=1",
+      "disc": 5,
       "category": "phones",
-      "type": "apple",
-      "price": 5499,
-      "discount": 6,
-      "image": "/iphone-17-pro-max.jpg",
-      "colors": [
-        {
-          "name": "برتقالي"
-        },
-        {
-          "name": "اسود"
-        }
-      ]
-    }
-  ],
-  "news": [
-    {
-      "id": 10,
-      "name": "iPhone 16",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يأتي iPhone 16 بتصميم جديد، شاشة أكثر تقدمًا، نظام كاميرات معاد تصميمه بشكل جذري، وأداء غير مسبوق بفضل شريحة A18 Bionic الجديدة. من المتوقع أيضًا تحسينات كبيرة في الذكاء الاصطناعي والواقع المعزز وكفاءة البطارية. سيتم تحديث البيانات عند الإطلاق الرسمي.",
-      "category": "phones",
-      "type": "apple",
-      "price": 3999,
-      "discount": 6,
-      "image": "/iphone-16.jpg",
-      "colors": [
-        {
-          "name": "Placeholder Black"
-        },
-        {
-          "name": "Placeholder Silver"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 11,
-      "name": "iPhone 16 Pro",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يرفع iPhone 16 Pro المعايير مرة أخرى بتصميم أكثر تطوراً، ربما شاشة أكبر قليلاً مع تقنية ProMotion محسنة. من المتوقع أن يقدم قفزة هائلة في قدرات التصوير والفيديو مع مستشعرات جديدة، وأداء خارق بشريحة A18 Pro. قد تركز الميزات الجديدة على الواقع المعزز والذكاء الاصطناعي التنافسي. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "0668298549",
+      "name": "iPhone Air - أسود فلكي",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-spaceblack_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1ZtcEM4aitYaEdXd0hiZU1XQVhwMWFnYlJUdjBJY2Y4eU1nRUl2VXp2OHhKNnlYR1ZZZnEyMVlVQUliTThGMjNyaFRNanVycmRDWDFzZ0xYWXZxcVpENFc3NlUrMFVmNXd4dlZIZGtjZCtRcDVn&traceId=1",
+      "disc": 14,
       "category": "phones",
-      "type": "apple",
-      "price": 4699,
-      "discount": 6,
-      "image": "/iphone-16-pro.jpg",
-      "colors": [
-        {
-          "name": "Placeholder Graphite"
-        },
-        {
-          "name": "Placeholder Gold"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 12,
-      "name": "iPhone 16 Pro Max",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يكون iPhone 16 Pro Max هو الهاتف الأكثر تقدمًا وابتكارًا في خط إنتاج Apple. قد يأتي بشاشة أكبر حجمًا مع تقنيات عرض جديدة، وبطارية ذات عمر أطول، ونظام كاميرا Pro يقدم إمكانيات تصوير لم يسبق لها مثيل على الهاتف الذكي، كل ذلك مدعوم بأقوى شريحة A18 Pro. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "8388226547",
+      "name": "آيفون 16 برو ماكس - تيتانيوم صحراوي",
+      "price": "5099.00 ر.س",
+      "image": "https://www.alhaddadshop.com/images/thumbs/0042851_iphone-16-pro-256gb-desert-titanium_360.jpeg",
+      "disc": 22,
       "category": "phones",
-      "type": "apple",
-      "price": 5099,
-      "discount": 6,
-      "image": "/iphone-16-pro-max.jpg",
-      "colors": [
-        {
-          "name": "Placeholder Titanium"
-        },
-        {
-          "name": "Placeholder Space Black"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 13,
-      "name": "iPhone 17",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يمثل iPhone 17 نقلة نوعية كبيرة في تصميم وتقنية الهواتف الذكية. قد يشمل ذلك تقنيات شاشة مبتكرة (مثل الشاشة القابلة للطي أو الخالية من القطع)، تطورات ثورية في أنظمة الكاميرا والذكاء الاصطنائي، وأداء غير مسبوق بشريحة A19 Bionic. قد تركز apple أيضًا على الاستدامة باستخدام مواد معاد تدويرها بنسبة أعلى. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "3769499029",
+      "name": "آيفون 16 برو ماكس - تيتانيوم أسود",
+      "price": "5099.00 ر.س",
+      "image": "https://alhaddadshop.com/images/thumbs/0042841_iphone-16-pro-256gb-black-titanium_360.jpeg",
+      "disc": 5,
       "category": "phones",
-      "type": "apple",
-      "price": 4299,
-      "discount": 6,
-      "image": "/iphone-17.jpg",
-      "colors": [
-        {
-          "name": "Placeholder Color 1"
-        },
-        {
-          "name": "Placeholder Color 2"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 14,
-      "name": "iPhone 17 Pro Max",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يكون iPhone 17 Pro Max هو ذروة الابتكار التكنولوجي من Apple. قد يجمع بين جميع ميزات الجيل الجديد في هاتف واحد: تصميم ثوري، شاشة كبيرة مذهلة بتقنية جديدة، نظام كاميرا Pro يغير قواعد اللعبة، أداء خارق بشريحة A19 Pro، وتكامل غير مسبوق مع أجهزة apple الأخرى لإنشاء تجربة مستخدم لا تنافس. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "8035111091",
+      "name": "آيفون 16 برو ماكس - تيتانيوم طبيعي",
+      "price": "5099.00 ر.س",
+      "image": "https://alhaddadshop.com/images/thumbs/0042856_iphone-16-pro-256gb-natural-titanium_360.jpeg",
+      "disc": 1,
       "category": "phones",
-      "type": "apple",
-      "price": 5499,
-      "discount": 6,
-      "image": "/iphone-17-pro-max.jpg",
-      "colors": [
-        {
-          "name": "برتقالي"
-        },
-        {
-          "name": "اسود"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 101,
-      "name": "Samsung Galaxy S24 Ultra",
-      "description": "هاتف Samsung Galaxy S24 Ultra يأتي بشاشة ديناميكية AMOLED ثنائية مقاس 6.8 بوصة بدقة QHD+، ويعمل بمعالج Snapdragon 8 Gen 3. يتميز بنظام كاميرات متطور بذاكرة وصول عشوائي سعة 12 جيجابايت، ويأتي بسعة تخزين 512 جيجابايت. يدعم الهاتف القلم S-Pen ويتميز بمقاومة الماء والغبار وفقًا لمعيار IP68.",
+      "id": "1871544569",
+      "name": "آيفون 16 برو ماكس - تيتانيوم أبيض",
+      "price": "5099.00 ر.س",
+      "image": "https://alhaddadshop.com/images/thumbs/0042846_iphone-16-pro-256gb-white-titanium_360.jpeg",
+      "disc": 17,
       "category": "phones",
-      "type": "samsung",
-      "price": 4899,
-      "discount": 8,
-      "image": "/samsung-s24-ultra.jpg",
-      "colors": [
-        {
-          "name": "تيتانيوم أسود"
-        },
-        {
-          "name": "تيتانيوم رمادي"
-        },
-        {
-          "name": "تيتانيوم بنفسجي"
-        },
-        {
-          "name": "تيتانيوم أصفر"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 103,
-      "name": "Samsung Galaxy Z Fold 5",
-      "description": "هاتف Samsung Galaxy Z Fold 5 القابل للطي يأتي بشاشة داخلية مقاس 7.6 بوصة وخارجية مقاس 6.2 بوصة، وكلاهما من نوع Dynamic AMOLED 2X. يعمل الهاتف بمعالج Snapdragon 8 Gen 2 ويأتي بسعة تخزين 512 جيجابايت. يتميز بتصميم مبتكر مقاوم للماء والغبار وفقًا لمعيار IPX8.",
+      "id": "9526483880",
+      "name": "آيفون 16 برو - تيتانيوم صحراوي",
+      "price": "4099.00 ر.س",
+      "image": "https://www.alhaddadshop.com/images/thumbs/0042851_iphone-16-pro-256gb-desert-titanium_360.jpeg",
+      "disc": 11,
       "category": "phones",
-      "type": "samsung",
-      "price": 5699,
-      "discount": 5,
-      "image": "/samsung-z-fold-5.jpg",
-      "colors": [
-        {
-          "name": "أسود"
-        },
-        {
-          "name": "أزرق"
-        },
-        {
-          "name": "كريم"
-        },
-        {
-          "name": "أبيض"
-        }
-      ]
-    }
-  ],
-  "news2": [
-    {
-      "id": 13,
-      "name": "iPhone 17",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يمثل iPhone 17 نقلة نوعية كبيرة في تصميم وتقنية الهواتف الذكية. قد يشمل ذلك تقنيات شاشة مبتكرة (مثل الشاشة القابلة للطي أو الخالية من القطع)، تطورات ثورية في أنظمة الكاميرا والذكاء الاصطنائي، وأداء غير مسبوق بشريحة A19 Bionic. قد تركز apple أيضًا على الاستدامة باستخدام مواد معاد تدويرها بنسبة أعلى. سيتم تحديث البيانات عند الإطلاق الرسمي.",
-      "category": "phones",
-      "type": "apple",
-      "price": 4299,
-      "discount": 6,
-      "image": "/iphone-17.jpg",
-      "colors": [
-        {
-          "name": "Placeholder Color 1"
-        },
-        {
-          "name": "Placeholder Color 2"
-        }
-      ]
+      "type": "iphone"
     },
     {
-      "id": 14,
-      "name": "iPhone 17 Pro Max",
-      "description": "إصدار مستقبلي - مواصفات غير معلنة. يُتوقع أن يكون iPhone 17 Pro Max هو ذروة الابتكار التكنولوجي من Apple. قد يجمع بين جميع ميزات الجيل الجديد في هاتف واحد: تصميم ثوري، شاشة كبيرة مذهلة بتقنية جديدة، نظام كاميرا Pro يغير قواعد اللعبة، أداء خارق بشريحة A19 Pro، وتكامل غير مسبوق مع أجهزة apple الأخرى لإنشاء تجربة مستخدم لا تنافس. سيتم تحديث البيانات عند الإطلاق الرسمي.",
+      "id": "3386540778",
+      "name": "آيفون 16 برو - تيتانيوم أسود",
+      "price": "4099.00 ر.س",
+      "image": "https://alhaddadshop.com/images/thumbs/0042841_iphone-16-pro-256gb-black-titanium_360.jpeg",
+      "disc": 18,
       "category": "phones",
-      "type": "apple",
-      "price": 5499,
-      "discount": 6,
-      "image": "/iphone-17-pro-max.jpg",
-      "colors": [
-        {
-          "name": "برتقالي"
-        },
-        {
-          "name": "اسود"
-        }
-      ]
+      "type": "iphone"
+    },
+    {
+      "id": "6648343633",
+      "name": "آيفون 16 برو - تيتانيوم طبيعي",
+      "price": "4099.00 ر.س",
+      "image": "https://alhaddadshop.com/images/thumbs/0042856_iphone-16-pro-256gb-natural-titanium_360.jpeg",
+      "disc": 7,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "9930885205",
+      "name": "آيفون 16 برو - تيتانيوم أبيض",
+      "price": "4099.00 ر.س",
+      "image": "https://alhaddadshop.com/images/thumbs/0042846_iphone-16-pro-256gb-white-titanium_360.jpeg",
+      "disc": 27,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2448190494",
+      "name": "آيفون 16 بلس - أزرق",
+      "price": "3599.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-7inch-ultramarine?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4OUp1NDJCalJ6MnpHSm1KdCtRZ0FvSDJrQmVLSXFrTCsvY1VvVmRlZkVnMzJKTG1lVWJJT2RXQWE0Mm9rU1V0V0R6SkNnaG1kYkl1VUVsNXVsVGJrQ0s0UmdXWi9jaTBCeEx5VFNDNXdWbmdBPT0=&traceId=1",
+      "disc": 14,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0785571280",
+      "name": "آيفون 16 بلس - أخضر",
+      "price": "3599.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-7inch-teal?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4L0IwNTFtRWJyTEhXTVJ5VURtbkU2V3F2TWlpSzUzejRCZGt2SjJUNGl1VEtsS0dZaHBma3VTb3UwU2F6dkc4TGNzdEloeWpsNHM1ODlJeTR1WVJnV20=&traceId=1",
+      "disc": 17,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "4512240047",
+      "name": "آيفون 16 بلس - وردي",
+      "price": "3599.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-7inch-pink?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4OGNDaFdYdHQ0L2VyT2lVS3J0dUtUeHF2TWlpSzUzejRCZGt2SjJUNGl1VEtsS0dZaHBma3VTb3UwU2F6dkc4TGMxRnJpVFI4NGhndHdQd2RyT05hdjY=&traceId=1",
+      "disc": 21,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0944419236",
+      "name": "آيفون 16 بلس - أبيض",
+      "price": "3599.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-7inch-white?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4L2JhVVdqaTJRWXhaTUQrck5qRnZDNE9MekhWSGZtV1pvV240QzNuTk80VXhseHVZcEw1SmhqcElaQkJMTm9FMzhadjUrVm5Sd0NSMGhLdzZzam8vcmw=&traceId=1",
+      "disc": 8,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "9666240119",
+      "name": "آيفون 16 بلس - أسود",
+      "price": "3599.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-7inch-black?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4L2xJT1MvUkQrVjRwaXNCNlgyUGhDdU9MekhWSGZtV1pvV240QzNuTk80VXhseHVZcEw1SmhqcElaQkJMTm9FMzlybFRjTGx3Ymc5Q0xLTWVYeWNsMG8=&traceId=1",
+      "disc": 11,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0849072059",
+      "name": "آيفون 16 - أزرق",
+      "price": "3399.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-ultramarine?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4L28rSU1jVGx4VGxCNEFSdVNXdG1RdzJrQmVLSXFrTCsvY1VvVmRlZkVnMzJKTG1lVWJJT2RXQWE0Mm9rU1V0V0E5L1ZBdzY3RU1aTVdUR3lMZHFNVzE0RzhwM3RLeUk1S0YzTkJVVmF2Ly9RPT0=&traceId=1",
+      "disc": 22,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2557477063",
+      "name": "آيفون 16 - اخضر",
+      "price": "3399.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-teal?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4L29KblRMQzVUOE4vMXpkMWtFcm9GcXF2TWlpSzUzejRCZGt2SjJUNGl1VEtsS0dZaHBma3VTb3UwU2F6dkc4TGRaWWVaY3B6VTFTdVNEWDF2OTRBYlY=&traceId=1",
+      "disc": 6,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "1419918446",
+      "name": "آيفون 16 - وردي",
+      "price": "3399.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-pink?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4OUtONFJuV1pCdWVXaWp6ZXpQQi9FWXF2TWlpSzUzejRCZGt2SjJUNGl1VEtsS0dZaHBma3VTb3UwU2F6dkc4TGZqTWwxUjR3emtKcFNGYngyU0EvOWU=&traceId=1",
+      "disc": 18,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "3128680418",
+      "name": "آيفون 16 - أبيض",
+      "price": "3399.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-white?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4OWhabGVFdVhnaExpMWhzbVh0SzhIT09MekhWSGZtV1pvV240QzNuTk80VXhseHVZcEw1SmhqcElaQkJMTm9FMytjRGRjd0V1bkY3a0xXbUtlY3VlTmc=&traceId=1",
+      "disc": 9,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0190911684",
+      "name": "آيفون 16 - أسود",
+      "price": "3399.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-16-finish-select-202409-6-1inch-black?wid=5120&hei=2880&fmt=webp&qlt=70&.v=UXp1U3VDY3IyR1hNdHZwdFdOLzg1V0tFK1lhSCtYSGRqMUdhR284NTN4OUFsUUpuUVQ3cUdJUXc0NW5mTVpFdE9MekhWSGZtV1pvV240QzNuTk80VXhseHVZcEw1SmhqcElaQkJMTm9FMzlKVGsyNDdnTWJxWHVYZ20wTDc3dFA=&traceId=1",
+      "disc": 15,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5841901137",
+      "name": "ايفون 15 برو ماكس 256 جيجابايت",
+      "price": "4408.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/9/7/1/8/9718fb4c46ee6395505e3d14c0498a4746c7c13c_623657.jpg",
+      "disc": 11,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5589699550",
+      "name": "ايفون 15 برو ماكس 512 جيجابايت",
+      "price": "5200.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/2/5/d/8/25d85a2a4d2b1b32096be8a5d5487c0bdf3681dc_623606.jpg",
+      "disc": 16,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "4263895066",
+      "name": "ايفون 15 برو ماكس 1 تيرابايت",
+      "price": "5899.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/9/6/9/3/969395e233f75654cb0915690ca9af13c136d6a8_623655.jpg",
+      "disc": 4,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "8536892335",
+      "name": "ايفون 15 برو 128 جيجابايت",
+      "price": "3208.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/f/0/4/0/f04087cc657591c18ca2cd29494f80a9c52079fd_623513.jpg",
+      "disc": 12,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5514599316",
+      "name": "ايفون 15 برو 256 جيجابايت",
+      "price": "3908.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/d/9/0/7/d90769a04070375f8a13cb33e96019d50a898b19_623535.jpg",
+      "disc": 3,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5143897727",
+      "name": "ايفون 15 برو 512 جيجابايت",
+      "price": "4109.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/d/1/b/c/d1bc4df7519aacf797ab08486ec142d25c1c505d_623568.jpg",
+      "disc": 7,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "4404958717",
+      "name": "ايفون 15 برو  1تيرابايت",
+      "price": "5200.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/d/9/0/7/d90769a04070375f8a13cb33e96019d50a898b19_623535.jpg",
+      "disc": 4,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0026758211",
+      "name": "ايفون 15 بلس 128 جيجابايت",
+      "price": "3600.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/c/9/0/e/c90ef38205ed51570741dbb238713139c3e8003d_623582.jpg",
+      "disc": 25,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2837465980",
+      "name": "ايفون 15 بلس 256 جيجابايت",
+      "price": "3800.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/0/2/f/8/02f8690ba5f6e87fe5c542d55ad35bb43da59388_623641.jpg",
+      "disc": 7,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "4603446076",
+      "name": "ايفون 15 بلس 512 جيجابايت",
+      "price": "5099.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/c/3/6/0/c360e0824dc24ed15cf25adf3f38713a04b87cd9_623676.jpg",
+      "disc": 13,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "8580187807",
+      "name": "ايفون 15 128 جيجابايت",
+      "price": "3600.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/9/5/c/f/95cfabf458138a6c81a50c84b8cc9b7c9410fe35_623509.jpg",
+      "disc": 9,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2230810207",
+      "name": "ايفون 15 256 جيجابايت",
+      "price": "3800.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/8/6/f/2/86f248c6824bfef50b1da09f3aeeca0b3e82e5fe_623512.jpg",
+      "disc": 0,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2006658106",
+      "name": "ايفون 15 512 جيجابايت",
+      "price": "4800.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/f/3/f/2/f3f20d32b780d11f9d85ef234f56e126e42dacdc_623548.jpg",
+      "disc": 2,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "9620243271",
+      "name": "ايفون 14 برو ماكس 512 جيجابايت",
+      "price": "4500.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/8/8/7/e/887ed5f96adc26559677cdefe3097c59a6164f56_595182.jpg",
+      "disc": 29,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5707440521",
+      "name": "ايفون 14 برو ماكس 256 جيجابايت",
+      "price": "4100.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/5/3/c/1/53c12e3617a8544e3eba351547b3c9ec2fb663f9_595118.jpg",
+      "disc": 19,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "4647205607",
+      "name": "ايفون 14 برو ماكس 128 جيجابايت",
+      "price": "3400.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/8/8/7/e/887ed5f96adc26559677cdefe3097c59a6164f56_595182.jpg",
+      "disc": 30,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "9507275065",
+      "name": "ايفون 14 برو ماكس 1 تيرابايت",
+      "price": "5500.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/d/1/0/b/d10bc67fb659efa6e8622482bc90cc7d164673fd_595191.jpg",
+      "disc": 12,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "7338526298",
+      "name": "ايفون 14 برو 128 جيجابايت",
+      "price": "3088.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/f/8/1/8/f818db98d7accb4080ad4db9ab6db10a82d5f824_595116.jpg",
+      "disc": 5,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "8923371374",
+      "name": "ايفون 14 برو 256 جيجابايت",
+      "price": "4099.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/f/8/1/8/f818db98d7accb4080ad4db9ab6db10a82d5f824_595116.jpg",
+      "disc": 21,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "1340329730",
+      "name": "ايفون 14 برو 512 جيجابايت",
+      "price": "4700.00 ر.س",
+      "image": "https://mobizil.com/wp-content/uploads/2022/09/Apple-iPhone-14-Pro-Max-Colors-1-300x218.jpg",
+      "disc": 29,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "6820743764",
+      "name": "ايفون 14 برو 1 تيرابايت",
+      "price": "4800.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/d/1/0/b/d10bc67fb659efa6e8622482bc90cc7d164673fd_595191.jpg",
+      "disc": 10,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "9023252247",
+      "name": "ايفون 14 بلس 128 جيجابايت",
+      "price": "2800.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/7/c/9/9/7c99d174d4950bf7d4a9cd54eff525d6ebe2cb7e_595128.jpg",
+      "disc": 4,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "1501892082",
+      "name": "ايفون 14 بلس 256 جيجابايت",
+      "price": "3200.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/0/1/c/4/01c489c003c3c164c8142e9337822f8c49c49bf3_595154.jpg",
+      "disc": 27,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "7130072920",
+      "name": "ايفون 14 بلس 512 جيجابايت",
+      "price": "4100.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/1/2/8/5/12854c606d7e2d8cb38a0f7b1d405ba21a4d07c3_595157.jpg",
+      "disc": 19,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "8580745713",
+      "name": "ايفون 14 128 جيجابايت",
+      "price": "3199.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/1/2/8/5/12854c606d7e2d8cb38a0f7b1d405ba21a4d07c3_595157.jpg",
+      "disc": 29,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "1826103401",
+      "name": "ايفون 14 256 جيجابايت",
+      "price": "3599.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/f/9/e/7/f9e7fcf1caa314e38d1cb212c066c0d71146ea2e_595114.jpg",
+      "disc": 7,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "4946324490",
+      "name": "ايفون 14 512 جيجابايت",
+      "price": "4599.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/d/7/d/7/d7d7419c9e9ccaf424fe4a14c0ed7285cc8ff99b_595176.jpg",
+      "disc": 24,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2307606416",
+      "name": "ايفون 13 برو ماكس مطلي ذهب كامل | iPhone 13 Pro Max Full Gold Plated",
+      "price": "6550.00 ر.س",
+      "image": "https://cdn.salla.sa/YZgPcN8JoSnyHbG9YXhjxvKXDKewphiH93nS1c5x.jpeg",
+      "disc": 15,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "4728770940",
+      "name": "ايفون 13 برو 256جيجا",
+      "price": "2999.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/0/7/a/f/07af094925c48cda041a634f5e01f50e66a260c4_581908.jpg",
+      "disc": 12,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5575492415",
+      "name": "ايفون 13 برو ماكس 512 جيجا",
+      "price": "3999.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/m1/delta/569426.jpg",
+      "disc": 8,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "6941502675",
+      "name": "ايفون 13 برو ماكس 256 جيجا",
+      "price": "3299.00 ر.س",
+      "image": "https://mobizil.com/wp-content/uploads/2021/09/iPhone-13-Pro-Max%E2%80%8F-1.jpg",
+      "disc": 15,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5449739979",
+      "name": "ايفون 13 برو ماكس 128 جيجا",
+      "price": "2999.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/m1/delta/569426.jpg",
+      "disc": 15,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5319855833",
+      "name": "ايفون 13 128 جيجا",
+      "price": "2250.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/m1/delta/569306.jpg",
+      "disc": 11,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "7419718169",
+      "name": "ايفون 13 256جيجا",
+      "price": "2450.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/m1/delta/569306.jpg",
+      "disc": 15,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "4071626556",
+      "name": "ايفون 12 Pro Max  512 جيجابايت",
+      "price": "2900.00 ر.س",
+      "image": "https://images.shopkees.com/uploads/cdn/images/1000/4199940600_1603556842.jpg",
+      "disc": 20,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "8867434168",
+      "name": "ايفون 12 Pro Max  256 جيجابايت",
+      "price": "2500.00 ر.س",
+      "image": "https://images.shopkees.com/uploads/cdn/images/1000/7498001226_1603556757.jpg",
+      "disc": 25,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "4198121469",
+      "name": "ايفون 12 Pro Max  128 جيجابايت",
+      "price": "2200.00 ر.س",
+      "image": "https://images.shopkees.com/uploads/cdn/images/1000/3656174374_1603556777.jpg",
+      "disc": 5,
+      "category": "phones",
+      "type": "iphone"
     }
   ],
   "samsung": [
     {
-      "id": 101,
-      "name": "Samsung Galaxy S24 Ultra",
-      "description": "هاتف Samsung Galaxy S24 Ultra يأتي بشاشة ديناميكية AMOLED ثنائية مقاس 6.8 بوصة بدقة QHD+، ويعمل بمعالج Snapdragon 8 Gen 3. يتميز بنظام كاميرات متطور بذاكرة وصول عشوائي سعة 12 جيجابايت، ويأتي بسعة تخزين 512 جيجابايت. يدعم الهاتف القلم S-Pen ويتميز بمقاومة الماء والغبار وفقًا لمعيار IP68.",
+      "id": "7814957811",
+      "name": "سامسونج S24 الترا تيتانيوم 256جيجا",
+      "price": "5399.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/7/4/5/b/745b1572038c69bc16f48a1072a04a1297327bf2_629685.jpg",
+      "disc": 8,
       "category": "phones",
-      "type": "samsung",
-      "price": 4899,
-      "discount": 8,
-      "image": "/samsung-s24-ultra.jpg",
-      "colors": [
-        {
-          "name": "تيتانيوم أسود"
-        },
-        {
-          "name": "تيتانيوم رمادي"
-        },
-        {
-          "name": "تيتانيوم بنفسجي"
-        },
-        {
-          "name": "تيتانيوم أصفر"
-        }
-      ]
+      "type": "samsung"
     },
     {
-      "id": 102,
-      "name": "Samsung Galaxy S23 Ultra",
-      "description": "يأتي هاتف Samsung Galaxy S23 Ultra بشاشة Dynamic AMOLED 2X مقاس 6.8 بوصة بدقة QHD+، ويعمل بمعالج Snapdragon 8 Gen 2. يتميز بنظام كاميرات متطور مع مستشعر 200 ميجابكسل، ويأتي بسعة تخزين 256 جيجابايت. يدعم الهاتف القلم S-Pen ومقاوم للماء والغبار وفقًا لمعيار IP68.",
+      "id": "7098637819",
+      "name": "سامسونج S24 الترا تيتانيوم 512جيجا",
+      "price": "5899.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/c/f/7/5/cf75118d76fb92880f2e1f6a51754bb42461bd97_629684.jpg",
+      "disc": 22,
       "category": "phones",
-      "type": "samsung",
-      "price": 4299,
-      "discount": 12,
-      "image": "/samsung-s23-ultra.jpg",
-      "colors": [
-        {
-          "name": "أخضر"
-        },
-        {
-          "name": "أسود"
-        },
-        {
-          "name": "كريم"
-        },
-        {
-          "name": "بنفسجي"
-        }
-      ]
+      "type": "samsung"
     },
     {
-      "id": 103,
-      "name": "Samsung Galaxy Z Fold 5",
-      "description": "هاتف Samsung Galaxy Z Fold 5 القابل للطي يأتي بشاشة داخلية مقاس 7.6 بوصة وخارجية مقاس 6.2 بوصة، وكلاهما من نوع Dynamic AMOLED 2X. يعمل الهاتف بمعالج Snapdragon 8 Gen 2 ويأتي بسعة تخزين 512 جيجابايت. يتميز بتصميم مبتكر مقاوم للماء والغبار وفقًا لمعيار IPX8.",
+      "id": "5596929346",
+      "name": "سامسونج S24 الترا تيتانيوم 1تيرا",
+      "price": "6899.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/1/7/2/a/172af2bdb936f70f46c85f2b3ab4fe06ad739766_632327.jpg",
+      "disc": 2,
       "category": "phones",
-      "type": "samsung",
-      "price": 5699,
-      "discount": 5,
-      "image": "/samsung-z-fold-5.jpg",
-      "colors": [
-        {
-          "name": "أسود"
-        },
-        {
-          "name": "أزرق"
-        },
-        {
-          "name": "كريم"
-        },
-        {
-          "name": "أبيض"
-        }
-      ]
+      "type": "samsung"
     },
     {
-      "id": 104,
-      "name": "Samsung Galaxy Z Flip 5",
-      "description": "هاتف Samsung Galaxy Z Flip 5 القابل للطي يأتي بشاشة خارجية كبيرة مقاس 3.4 بوصة وشاشة داخلية مقاس 6.7 بوصة من نوع Dynamic AMOLED 2X. يعمل الهاتف بمعالج Snapdragon 8 Gen 2 ويأتي بسعة تخزين 256 جيجابايت. يتميز بتصميم مضغوط ومقاوم للماء والغبار وفقًا لمعيار IPX8.",
+      "id": "8590530685",
+      "name": "سامسونج هاتف جالاكسي  S23",
+      "price": "4800.00 ر.س",
+      "image": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/https://mobizil.com/wp-content/uploads/2023/01/Samsung-Galaxy-S23-Ultra-5G.jpg",
+      "disc": 4,
       "category": "phones",
-      "type": "samsung",
-      "price": 3899,
-      "discount": 7,
-      "image": "/samsung-z-flip-5.jpg",
-      "colors": [
-        {
-          "name": "أخضر"
-        },
-        {
-          "name": "أصفر"
-        },
-        {
-          "name": "أسود"
-        },
-        {
-          "name": "بنفسجي"
-        }
-      ]
+      "type": "samsung"
     },
     {
-      "id": 105,
-      "name": "Samsung Galaxy A54 5G",
-      "description": "هاتف Samsung Galaxy A54 5G يأتي بشاشة Super AMOLED مقاس 6.4 بوصة بدقة FHD+، ويعمل بمعالج Exynos 1380. يتميز بنظام كاميرات ثلاثي مع مستشعر رئيسي بدقة 50 ميجابكسل، ويأتي بسعة تخزين 128 جيجابايت. يدعم الهاتف شبكات 5G ومقاوم للماء والغبار وفقًا لمعيار IP67.",
+      "id": "2164555202",
+      "name": "سامسونج هاتف جالاكسي S22",
+      "price": "3600.00 ر.س",
+      "image": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/https://mobizil.com/wp-content/uploads/2022/02/Samsung-Galaxy-S22-Ultra-5G.jpg",
+      "disc": 16,
       "category": "phones",
-      "type": "samsung",
-      "price": 1699,
-      "discount": 10,
-      "image": "/samsung-a54.jpg",
-      "colors": [
-        {
-          "name": "أبيض"
-        },
-        {
-          "name": "أسود"
-        },
-        {
-          "name": "أخضر"
-        },
-        {
-          "name": "بنفسجي"
-        }
-      ]
+      "type": "samsung"
     },
     {
-      "id": 106,
-      "name": "Samsung Galaxy A34 5G",
-      "description": "هاتف Samsung Galaxy A34 5G يأتي بشاشة Super AMOLED مقاس 6.6 بوصة بدقة FHD+، ويعمل بمعالج MediaTek Dimensity 1080. يتميز بنظام كاميرات ثلاثي مع مستشعر رئيسي بدقة 48 ميجابكسل، ويأتي بسعة تخزين 128 جيجابايت. يدعم الهاتف شبكات 5G ومقاوم للماء والغبار وفقًا لمعيار IP67.",
+      "id": "8532981372",
+      "name": "سامسونج هاتف جالاكسي S21",
+      "price": "3100.00 ر.س",
+      "image": "https://cdn.shortpixel.ai/spai/q_glossy+ret_img+to_webp/https://mobizil.com/wp-content/uploads/2021/01/S21-Ultra-5G.jpg",
+      "disc": 30,
       "category": "phones",
-      "type": "samsung",
-      "price": 1399,
-      "discount": 15,
-      "image": "/samsung-a34.jpg",
-      "colors": [
-        {
-          "name": "أخضر"
-        },
-        {
-          "name": "أسود"
-        },
-        {
-          "name": "أرجواني"
-        },
-        {
-          "name": "فضي"
-        }
-      ]
+      "type": "samsung"
     },
     {
-      "id": 107,
-      "name": "Samsung Galaxy Z Fold 4",
-      "description": "هاتف Samsung Galaxy Z Fold 4 القابل للطي يأتي بشاشة داخلية مقاس 7.6 بوصة وخارجية مقاس 6.2 بوصة، وكلاهما من نوع Dynamic AMOLED 2X. يعمل الهاتف بمعالج Snapdragon 8+ Gen 1 ويأتي بسعة تخزين 256 جيجابايت. يتميز بتصميم مبتكر ومقاوم للماء والغبار وفقًا لمعيار IPX8.",
+      "id": "9928012414",
+      "name": "جهاز بلايستيشن 5 نسخة اقراص",
+      "price": "2225.00 ر.س",
+      "image": "https://media.zid.store/thumbs/e1c9825c-1b3b-4d4d-98e9-a31a1beef5cb/a0dfe4a3-2643-4448-8479-8a5391b309b9-thumbnail-370x370.png",
+      "disc": 17,
+      "category": "gaming",
+      "type": "playstation"
+    }
+  ],
+  "new1": [
+    {
+      "id": "7814957811",
+      "name": "سامسونج S24 الترا تيتانيوم 256جيجا",
+      "price": "5399.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/7/4/5/b/745b1572038c69bc16f48a1072a04a1297327bf2_629685.jpg",
+      "disc": 8,
       "category": "phones",
-      "type": "samsung",
-      "price": 4999,
-      "discount": 18,
-      "image": "/samsung-z-fold-4.jpg",
-      "colors": [
-        {
-          "name": "أسود"
-        },
-        {
-          "name": "أخضر"
-        },
-        {
-          "name": "بيج"
-        }
-      ]
+      "type": "samsung"
     },
     {
-      "id": 108,
-      "name": "Samsung Galaxy S22 Ultra",
-      "description": "هاتف Samsung Galaxy S22 Ultra يأتي بشاشة Dynamic AMOLED 2X مقاس 6.8 بوصة بدقة QHD+، ويعمل بمعالج Exynos 2200. يتميز بنظام كاميرات متطور مع مستشعر 108 ميجابكسل، ويأتي بسعة تخزين 256 جيجابايت. يدعم الهاتف القلم S-Pen ومقاوم للماء والغبار وفقًا لمعيار IP68.",
+      "id": "7098637819",
+      "name": "سامسونج S24 الترا تيتانيوم 512جيجا",
+      "price": "5899.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/c/f/7/5/cf75118d76fb92880f2e1f6a51754bb42461bd97_629684.jpg",
+      "disc": 22,
       "category": "phones",
-      "type": "samsung",
-      "price": 3699,
-      "discount": 20,
-      "image": "/samsung-s22-ultra.jpg",
-      "colors": [
-        {
-          "name": "أحمر"
-        },
-        {
-          "name": "أسود"
-        },
-        {
-          "name": "أبيض"
-        },
-        {
-          "name": "أخضر"
-        }
-      ]
+      "type": "samsung"
+    },
+    {
+      "id": "5596929346",
+      "name": "سامسونج S24 الترا تيتانيوم 1تيرا",
+      "price": "6899.00 ر.س",
+      "image": "https://ak-asset.jarir.com/akeneo-prod/asset/1/7/2/a/172af2bdb936f70f46c85f2b3ab4fe06ad739766_632327.jpg",
+      "disc": 2,
+      "category": "phones",
+      "type": "samsung"
+    },
+    {
+      "id": "9913493991",
+      "name": "iPhone 17 Pro Max - فضي",
+      "price": "5699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-9inch-silver?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RVRqUkJqUGFyN1pGMnlaV3JkWU9jdjF1TmpsTkNoRVRMR1N6UXlVZFBaU0NYR1ZZZnEyMVlVQUliTThGMjNyaFR2eUMvb2haNXNmNzdKdWt0U1ZQdytrdUpTeWc3ZDMyOXoxZzZsN2h4QUpn&traceId=1",
+      "disc": 10,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0514680231",
+      "name": "iPhone 17 Pro Max -  برتقالي كوني",
+      "price": "5699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-9inch-cosmicorange?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RnVrUzFnTVVSUnNLVnZUWUMxNTBGaGhsQTdPYWVGbmdIenAvNE9qYmZVYVFDb1F2RTNvUEVHRkpGaGtOSVFHak5NTEhXRE11VU1QNVo2eDJsWlpuWHQ0UUFVR2VKbG01TlNLQjF0NGpPTGpn&traceId=1",
+      "disc": 23,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "6356495087",
+      "name": "iPhone 17 Pro Max - نيلي عميق",
+      "price": "5699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-9inch-deepblue?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RWhhOHJGRUNHdlh6a3VuZVVqdnNrNXVHdDcxbVFRSnhaQ0pnV1pOaG5KaGhNQnJMcnc4RkxJd3ZMc3hKZVVFWHVXenRLWlZCb0tkUFpoSnR6NVNhUVducEFkWDhWNjJ3MFplaEowdVdua1Fn&traceId=1",
+      "disc": 13,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "8900437181",
+      "name": "iPhone 17 Pro - فضي",
+      "price": "5199.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-3inch-silver?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RzRIN3Q2Z245Z1F3L1paWlRjZnl6YTF1TmpsTkNoRVRMR1N6UXlVZFBaU0NYR1ZZZnEyMVlVQUliTThGMjNyaFJrcEd1clY3WVFlSUNyM3IrZEFuRFR6ODEvU2tiaXNzQWszNEFkL3JOSDlR&traceId=1",
+      "disc": 20,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "3552603862",
+      "name": "iPhone 17 Pro -  برتقالي كوني",
+      "price": "5199.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-3inch-cosmicorange?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RUlmWnJkM2NiV2hVVVF2ZE1VdGpQZWhsQTdPYWVGbmdIenAvNE9qYmZVYVFDb1F2RTNvUEVHRkpGaGtOSVFHak5NTEhXRE11VU1QNVo2eDJsWlpuWHRkVU9UVVBIM3VaNkIwZDNjTFVDTkln&traceId=1",
+      "disc": 27,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "3549222329",
+      "name": "iPhone 17 Pro - نيلي عميق",
+      "price": "5199.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-3inch-deepblue?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RUczK3M0RVhxWWpFZXJsZzlEU0tTSHVHdDcxbVFRSnhaQ0pnV1pOaG5KaGhNQnJMcnc4RkxJd3ZMc3hKZVVFWHVpT1Z6NWMwNURPMDlnZXlyQlY4dlVwYS9BYWxBUFY3NVFZRnlMNGI1MGh3&traceId=1",
+      "disc": 6,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5396904189",
+      "name": "iPhone 17 - ليلكي ناعم",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-lavender_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxbGoraU1aeXdWbEh0SUtyMmtxWGg5c2I5OTFWTU9uL0JzeUM0bk9aSE5BOGxjZnhHRHJyenVmME5KTm9Sd1ZaU3NqbWRhTGpRM2xxVWJRWUhSaDlCQ3FRcTR3M2kzamNuYXZZV0tTSng3bFR1YmZQMXFXa2w0U3RUanhYSTV4Z29R&traceId=1",
+      "disc": 10,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "1912368691",
+      "name": "iPhone 17 -  أخضر رمادي",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-sage_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxZ3VBTlNROXF1MzBwZUoyNEVtMWw3aC8xK3Z0ZStkS2NYQTZHRzkxSysyV2d2S3NaRzcrU0dmYjNHTUFiMnlsWFUxSlgrVWMrMzU1OXo2c2JyNjJZTGg1dFdZVGxNWWRNUkhqdzB1RkRJYUo&traceId=1",
+      "disc": 2,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2565982481",
+      "name": "iPhone 17 - أزرق ضبابي",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-mistblue_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxcFYyWWhPSUg0YytZdmJ2dmY4d09xcjZyWjhTTFhxYW1jNmNBcUtPK3p3OWxjZnhHRHJyenVmME5KTm9Sd1ZaU3NqbWRhTGpRM2xxVWJRWUhSaDlCQ3JCZlBIK1BreHJ5bFV6cGlFbFh4elJRRXB6YUhNcms5Z1pYZXdkbUhocnBn&traceId=1",
+      "disc": 16,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0410052713",
+      "name": "iPhone 17 - أبيض",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-white_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxclZmSzgzdlhzQS95ekpRalhXU0JMVVYyZEJVVE0xRm5UWEk5N1NiYWsrR3F2TWlpSzUzejRCZGt2SjJUNGl1VEE4bm1RcmlWRWp2eDN1WHNkSjNmUmFBM2k0bTFnNDVHV0FuRjVwdjVQNzQ&traceId=1",
+      "disc": 15,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2480178116",
+      "name": "iPhone 17 -  أسود",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-black_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxa3pYQjBteGp2cFFHL09TNGhVUUhxeHVxTmlKYzQ5Q1RtSitUbnZmZDNpbHF2TWlpSzUzejRCZGt2SjJUNGl1VEE4bm1RcmlWRWp2eDN1WHNkSjNmUmJtSnJrdGtHcGl3N1VPYU1pb0lyTWI&traceId=1",
+      "disc": 13,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "3735020464",
+      "name": "iPhone Air - أزرق سماوي",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-skyblue_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1Ztb1ZEZUVnNVNNUWtLaS8xRU9vZUdWbWxjZnhHRHJyenVmME5KTm9Sd1ZaU3NqbWRhTGpRM2xxVWJRWUhSaDlCQ3A2V3Zhd0lpNDRoQUcrdVZ5ajY1VGlGQlRRRytmTHd2bTlDU2RZMUtqVTRR&traceId=1",
+      "disc": 27,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0519778069",
+      "name": "iPhone Air - ذهبي فاتح",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-lightgold_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1ZtclZTMzkyOHlpaEY3dW11QTFUeS9abDhLcXQxZ1h0QThIT2dnUm5qbGk5OUJkSERIUjY1Wk1Od3FtNjF6NFZLVXY2MlgxdDJrbUptdWpGUmZqYndSQXhjcGVPSlVBZ3UzMTZrTm81ODdNWTlR&traceId=1",
+      "disc": 21,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "3162769156",
+      "name": "iPhone Air -  أبيض سحابي",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-cloudwhite_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1ZtcU1aUGcwalkvN1J1VFhvdnhUQi8zWlJUdjBJY2Y4eU1nRUl2VXp2OHhKNnlYR1ZZZnEyMVlVQUliTThGMjNyaFRWY0JyaHhkRXEyNlFsTjFpRGZBRHZWOGR2Wm9PdmxBZGdFblZrUmlUTU9R&traceId=1",
+      "disc": 5,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0668298549",
+      "name": "iPhone Air - أسود فلكي",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-spaceblack_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1ZtcEM4aitYaEdXd0hiZU1XQVhwMWFnYlJUdjBJY2Y4eU1nRUl2VXp2OHhKNnlYR1ZZZnEyMVlVQUliTThGMjNyaFRNanVycmRDWDFzZ0xYWXZxcVpENFc3NlUrMFVmNXd4dlZIZGtjZCtRcDVn&traceId=1",
+      "disc": 14,
+      "category": "phones",
+      "type": "iphone"
+    }
+  ],
+  "new2": [
+    {
+      "id": "9913493991",
+      "name": "iPhone 17 Pro Max - فضي",
+      "price": "5699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-9inch-silver?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RVRqUkJqUGFyN1pGMnlaV3JkWU9jdjF1TmpsTkNoRVRMR1N6UXlVZFBaU0NYR1ZZZnEyMVlVQUliTThGMjNyaFR2eUMvb2haNXNmNzdKdWt0U1ZQdytrdUpTeWc3ZDMyOXoxZzZsN2h4QUpn&traceId=1",
+      "disc": 10,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0514680231",
+      "name": "iPhone 17 Pro Max -  برتقالي كوني",
+      "price": "5699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-9inch-cosmicorange?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RnVrUzFnTVVSUnNLVnZUWUMxNTBGaGhsQTdPYWVGbmdIenAvNE9qYmZVYVFDb1F2RTNvUEVHRkpGaGtOSVFHak5NTEhXRE11VU1QNVo2eDJsWlpuWHQ0UUFVR2VKbG01TlNLQjF0NGpPTGpn&traceId=1",
+      "disc": 23,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "6356495087",
+      "name": "iPhone 17 Pro Max - نيلي عميق",
+      "price": "5699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-9inch-deepblue?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RWhhOHJGRUNHdlh6a3VuZVVqdnNrNXVHdDcxbVFRSnhaQ0pnV1pOaG5KaGhNQnJMcnc4RkxJd3ZMc3hKZVVFWHVXenRLWlZCb0tkUFpoSnR6NVNhUVducEFkWDhWNjJ3MFplaEowdVdua1Fn&traceId=1",
+      "disc": 13,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "8900437181",
+      "name": "iPhone 17 Pro - فضي",
+      "price": "5199.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-3inch-silver?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RzRIN3Q2Z245Z1F3L1paWlRjZnl6YTF1TmpsTkNoRVRMR1N6UXlVZFBaU0NYR1ZZZnEyMVlVQUliTThGMjNyaFJrcEd1clY3WVFlSUNyM3IrZEFuRFR6ODEvU2tiaXNzQWszNEFkL3JOSDlR&traceId=1",
+      "disc": 20,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "3552603862",
+      "name": "iPhone 17 Pro -  برتقالي كوني",
+      "price": "5199.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-3inch-cosmicorange?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RUlmWnJkM2NiV2hVVVF2ZE1VdGpQZWhsQTdPYWVGbmdIenAvNE9qYmZVYVFDb1F2RTNvUEVHRkpGaGtOSVFHak5NTEhXRE11VU1QNVo2eDJsWlpuWHRkVU9UVVBIM3VaNkIwZDNjTFVDTkln&traceId=1",
+      "disc": 27,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "3549222329",
+      "name": "iPhone 17 Pro - نيلي عميق",
+      "price": "5199.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-finish-select-202509-6-3inch-deepblue?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUNzdzNKR0FJbmhKWm5YamRHb05tUzkyK3hWak1ybHhtWDkwUXVINFc0RUczK3M0RVhxWWpFZXJsZzlEU0tTSHVHdDcxbVFRSnhaQ0pnV1pOaG5KaGhNQnJMcnc4RkxJd3ZMc3hKZVVFWHVpT1Z6NWMwNURPMDlnZXlyQlY4dlVwYS9BYWxBUFY3NVFZRnlMNGI1MGh3&traceId=1",
+      "disc": 6,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "5396904189",
+      "name": "iPhone 17 - ليلكي ناعم",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-lavender_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxbGoraU1aeXdWbEh0SUtyMmtxWGg5c2I5OTFWTU9uL0JzeUM0bk9aSE5BOGxjZnhHRHJyenVmME5KTm9Sd1ZaU3NqbWRhTGpRM2xxVWJRWUhSaDlCQ3FRcTR3M2kzamNuYXZZV0tTSng3bFR1YmZQMXFXa2w0U3RUanhYSTV4Z29R&traceId=1",
+      "disc": 10,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "1912368691",
+      "name": "iPhone 17 -  أخضر رمادي",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-sage_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxZ3VBTlNROXF1MzBwZUoyNEVtMWw3aC8xK3Z0ZStkS2NYQTZHRzkxSysyV2d2S3NaRzcrU0dmYjNHTUFiMnlsWFUxSlgrVWMrMzU1OXo2c2JyNjJZTGg1dFdZVGxNWWRNUkhqdzB1RkRJYUo&traceId=1",
+      "disc": 2,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2565982481",
+      "name": "iPhone 17 - أزرق ضبابي",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-mistblue_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxcFYyWWhPSUg0YytZdmJ2dmY4d09xcjZyWjhTTFhxYW1jNmNBcUtPK3p3OWxjZnhHRHJyenVmME5KTm9Sd1ZaU3NqbWRhTGpRM2xxVWJRWUhSaDlCQ3JCZlBIK1BreHJ5bFV6cGlFbFh4elJRRXB6YUhNcms5Z1pYZXdkbUhocnBn&traceId=1",
+      "disc": 16,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0410052713",
+      "name": "iPhone 17 - أبيض",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-white_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxclZmSzgzdlhzQS95ekpRalhXU0JMVVYyZEJVVE0xRm5UWEk5N1NiYWsrR3F2TWlpSzUzejRCZGt2SjJUNGl1VEE4bm1RcmlWRWp2eDN1WHNkSjNmUmFBM2k0bTFnNDVHV0FuRjVwdjVQNzQ&traceId=1",
+      "disc": 15,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "2480178116",
+      "name": "iPhone 17 -  أسود",
+      "price": "3799.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-finish-select-202509-black_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=WGdCRlQ0YVlqbTdXTEkxRnVQb0oxa3pYQjBteGp2cFFHL09TNGhVUUhxeHVxTmlKYzQ5Q1RtSitUbnZmZDNpbHF2TWlpSzUzejRCZGt2SjJUNGl1VEE4bm1RcmlWRWp2eDN1WHNkSjNmUmJtSnJrdGtHcGl3N1VPYU1pb0lyTWI&traceId=1",
+      "disc": 13,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "3735020464",
+      "name": "iPhone Air - أزرق سماوي",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-skyblue_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1Ztb1ZEZUVnNVNNUWtLaS8xRU9vZUdWbWxjZnhHRHJyenVmME5KTm9Sd1ZaU3NqbWRhTGpRM2xxVWJRWUhSaDlCQ3A2V3Zhd0lpNDRoQUcrdVZ5ajY1VGlGQlRRRytmTHd2bTlDU2RZMUtqVTRR&traceId=1",
+      "disc": 27,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0519778069",
+      "name": "iPhone Air - ذهبي فاتح",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-lightgold_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1ZtclZTMzkyOHlpaEY3dW11QTFUeS9abDhLcXQxZ1h0QThIT2dnUm5qbGk5OUJkSERIUjY1Wk1Od3FtNjF6NFZLVXY2MlgxdDJrbUptdWpGUmZqYndSQXhjcGVPSlVBZ3UzMTZrTm81ODdNWTlR&traceId=1",
+      "disc": 21,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "3162769156",
+      "name": "iPhone Air -  أبيض سحابي",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-cloudwhite_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1ZtcU1aUGcwalkvN1J1VFhvdnhUQi8zWlJUdjBJY2Y4eU1nRUl2VXp2OHhKNnlYR1ZZZnEyMVlVQUliTThGMjNyaFRWY0JyaHhkRXEyNlFsTjFpRGZBRHZWOGR2Wm9PdmxBZGdFblZrUmlUTU9R&traceId=1",
+      "disc": 5,
+      "category": "phones",
+      "type": "iphone"
+    },
+    {
+      "id": "0668298549",
+      "name": "iPhone Air - أسود فلكي",
+      "price": "4699.00 ر.س",
+      "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-air-finish-select-202509-spaceblack_GEO_SA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=NUpaQVl1bitSNmJWZUdKdi9QZHhsQnMyOXpiUEVyWXc0UFVFMUg1R1ZtcEM4aitYaEdXd0hiZU1XQVhwMWFnYlJUdjBJY2Y4eU1nRUl2VXp2OHhKNnlYR1ZZZnEyMVlVQUliTThGMjNyaFRNanVycmRDWDFzZ0xYWXZxcVpENFc3NlUrMFVmNXd4dlZIZGtjZCtRcDVn&traceId=1",
+      "disc": 14,
+      "category": "phones",
+      "type": "iphone"
     }
   ]
 }

@@ -66,24 +66,28 @@ export default function Iphone17() {
         modules={[Autoplay, Pagination]}
         className="mySwiper overflow-hidden rounded-2xl"
       >
-        {phones.news2.map((p, i) => (
+        {phones.new2.map((p, i) => (
           <SwiperSlide key={i} className="">
             <Link
               href={`/products/${p.category}/${p.type}/${p.id}`}
               className="product sm:px-3 p-2 sm:py-4 rounded-2xl bg-white    block  w-full  "
             >
-              <div className="flex sm:flex-row flex-col items-center sm:items-start gap-4">
-                <div className="image sm:aspect-[3/3.3] aspect-[1/.6] w-full relative max-w-[100%] sm:max-w-[35%] h-full">
+              <div className="grid grid-cols-12 gap-2 items-center">
+                <div className="image md:col-span-5 col-span-12  w-full relative h-[150px] overflow-hidden rounded-2xl">
                   <Image
                     src={p.image}
                     alt={p.name}
                     fill
                     quality={100}
                     unoptimized
-                    className=" mx-auto  md:max-w-[100px] max-w-[90px] md:max-h-[120px] max-h-[115px]"
+                    className={` mx-auto w-full rounded-2xl  ${
+                      p.type !== "samsung"
+                        ? " scale-155  object-cover"
+                        : " object-contain"
+                    }   `}
                   />
                 </div>
-                <div className="flex flex-col justify-between sm:px-3 w-full sm:max-w-[70%]">
+                <div className="flex md:col-span-7 col-span-12 flex-col justify-between w-full ">
                   <h3 className="sm:text-sm text-xs w-full text-nowrap">
                     {p.name}
                   </h3>
@@ -95,7 +99,7 @@ export default function Iphone17() {
                       {p.price} ر.س
                     </span>
                     <span className="text-[10px] text-red-500 bg-red-100 sm:px-2 sm:py-1 px-1 py-0.5 rounded">
-                      خصم {p.discount}%
+                      خصم {p.disc}%
                     </span>
                   </div>
                   <button
