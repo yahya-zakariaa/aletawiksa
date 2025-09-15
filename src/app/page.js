@@ -66,7 +66,7 @@ export default function Home() {
       </div>
       <div className="container p-3 md:p-4 relative  w-[95%] md:w-[85%]    mx-auto mb-14 border border-[#4d1572] rounded-md">
         <div className="grid grid-cols-12  items-center">
-          <div className="col-span-4 md:col-span-7 relative">
+          <div className="col-span-6 md:col-span-6 relative">
             <h1 className="text-[#9d5ea9] text-md md:text-5xl  font-bold mb-1 md:mb-2">
               طرق دفع متعددة{" "}
             </h1>
@@ -88,7 +88,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <div className="md:col-span-5 col-span-8">
+          <div className="md:col-span-6 col-span-6">
             <div className="slider-payments grid grid-cols-10  justify-start">
               <div className="md:col-span-2 col-span-3 ">
                 <Link
