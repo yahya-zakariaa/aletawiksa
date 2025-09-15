@@ -90,7 +90,7 @@ export default function NewProducts() {
                     fill
                     quality={100}
                     unoptimized
-                    className=" mx-auto  md:max-w-[70px] max-w-[90px] md:max-h-[90px] max-h-[120px]  "
+                    className=" mx-auto  md:max-w-[70px] max-w-[90px] md:max-h-[90px] max-h-[115px]  "
                   />
                 </div>
                 <div className="flex flex-col justify-between  w-full ">
