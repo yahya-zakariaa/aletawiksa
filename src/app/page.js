@@ -42,16 +42,6 @@ export default function Home() {
         </div>
         <CategoriesSlider />
       </div>
-
-      <div className="container w-[95%] md:w-[85%] overflow-hidden mx-auto mb-14 relative text-center bg-[#4d1572] py-3 rounded-3xl px-5 md:px-20">
-        <h2 className="title text-white font-bold text-xl md:text-3xl tracking-wide mb-2">
-          X-WOLF
-        </h2>
-        <p className="text-white font-semibold  ">فخامه و امان وقوة ضمان</p>
-        <button className="bg-[#9d5ea9] px-4 py-2.5 text-white rounded-full text-md font-medium  mt-24 mb-5">
-          كمل وشوف
-        </button>
-      </div>
       <div className="container w-[95%] md:w-[85%]    mx-auto mb-14 ">
         <div className="bg-[#4d1572] w-full rounded-2xl pb-12 md:pb-16 pt-5 px-2 relative">
           <div className="header mb-10 text-center">
@@ -64,6 +54,16 @@ export default function Home() {
           <NewProducts />
         </div>
       </div>
+      <div className="container w-[95%] md:w-[85%] overflow-hidden mx-auto mb-14 relative text-center bg-[#4d1572] py-3 rounded-3xl px-5 md:px-20">
+        <h2 className="title text-white font-bold text-xl md:text-3xl tracking-wide mb-2">
+          X-WOLF
+        </h2>
+        <p className="text-white font-semibold  ">فخامه و امان وقوة ضمان</p>
+        <button className="bg-[#9d5ea9] px-4 py-2.5 text-white rounded-full text-md font-medium  mt-24 mb-5">
+          كمل وشوف
+        </button>
+      </div>
+
       <div className="container p-3 md:p-4 relative  w-[95%] md:w-[85%]    mx-auto mb-14 border border-[#4d1572] rounded-md">
         <div className="grid grid-cols-12  items-center">
           <div className="col-span-6 md:col-span-6 relative">
