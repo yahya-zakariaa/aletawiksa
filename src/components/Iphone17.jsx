@@ -80,7 +80,7 @@ export default function Iphone17() {
                     fill
                     quality={100}
                     unoptimized
-                    className=" mx-auto  md:max-w-[100px] max-w-[90px] md:max-h-[120px] max-h-[120px]"
+                    className=" mx-auto  md:max-w-[100px] max-w-[90px] md:max-h-[120px] max-h-[115px]"
                   />
                 </div>
                 <div className="flex flex-col justify-between sm:px-3 w-full sm:max-w-[70%]">
