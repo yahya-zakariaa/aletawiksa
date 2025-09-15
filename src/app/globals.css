@@ -128,5 +128,19 @@
     @apply bg-background text-foreground;
   }
 }
+.custom-pagination1 .swiper-pagination-bullet,
+.custom-pagination2 .swiper-pagination-bullet {
+  background: #ddd;
+  opacity: 0.5;
+}
 
+.custom-pagination1 .swiper-pagination-bullet-active-main,
+.custom-pagination2 .swiper-pagination-bullet-active-main {
+  background: #9e5fcc;
+}
 
+.custom-pagination1,
+.custom-pagination2 {
+  bottom: 20px !important;
+  left: 55% !important;
+}

@@ -13,7 +13,7 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import Image from "next/image";
 import { toast } from "sonner";
 import Link from "next/link";
-export default function Slider() {
+export default function NewProducts() {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
   const paginationRef = useRef(null);
@@ -51,9 +51,7 @@ export default function Slider() {
         }}
         breakpoints={{
           320: { slidesPerView: 2, spaceBetween: 10 }, // موبايل
-          540: { slidesPerView: 2 }, // تابلت
-          1024: { slidesPerView: 3 }, // لاب توب
-          1280: { slidesPerView: 3 }, // شاشات أكبر
+          540: { slidesPerView: 6 }, // تابلت
         }}
         spaceBetween={10}
         loop={true}
@@ -71,21 +69,21 @@ export default function Slider() {
           nextEl: ".custom-next",
         }}
         pagination={{
-          el: ".custom-pagination1",
+          el: ".custom-pagination2",
           clickable: true,
           dynamicBullets: true,
         }}
         modules={[Autoplay, Navigation, Pagination]}
         className="mySwiper overflow-hidden rounded-2xl"
       >
-        {phones.apple.map((p, i) => (
+        {phones.news.map((p, i) => (
           <SwiperSlide key={i} className="">
             <Link
               href={`/products/${p.category}/${p.type}/${p.id}`}
               className="product sm:px-3 p-2 sm:py-4 rounded-2xl bg-white    block  w-full  "
             >
-              <div className="flex sm:flex-row flex-col items-center sm:items-start gap-4">
-                <div className="image sm:aspect-[3/3.3] aspect-[3/3.5] w-full relative max-w-[100%] sm:max-w-[35%] h-full">
+              <div className="flex  flex-col items-center sm:items-start gap-2">
+                <div className="image sm:aspect-[3/3.5] aspect-[3/3.5] w-full relative max-w-[100%]  h-full">
                   <Image
                     src={p.image}
                     alt={p.name}
@@ -95,7 +93,7 @@ export default function Slider() {
                     className=" mx-auto aspect-square max-w-[230px] max-h-[300px]  rounded-lg"
                   />
                 </div>
-                <div className="flex flex-col justify-between sm:px-3 w-full sm:max-w-[70%]">
+                <div className="flex flex-col justify-between  w-full ">
                   <h3 className="sm:text-sm text-xs w-full text-nowrap">
                     {p.name}
                   </h3>
@@ -139,7 +137,10 @@ export default function Slider() {
           </SwiperSlide>
         ))}
       </Swiper>
-      <div ref={paginationRef} className="custom-pagination1 absolute left-1/2  w-full"></div>
+      <div
+        ref={paginationRef}
+        className="custom-pagination2 absolute left-1/2  w-full"
+      ></div>
       <button
         ref={nextRef}
         className="custom-next absolute md:block hidden z-30 cursor-pointer -left-8 top-[65%] -translate-y-1/2 bg-[#8749b3] text-[#fff] rounded-full p-2 "

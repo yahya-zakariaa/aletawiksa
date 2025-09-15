@@ -370,6 +370,54 @@
           "name": "اسود"
         }
       ]
+    },
+    {
+      "id": 101,
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "هاتف Samsung Galaxy S24 Ultra يأتي بشاشة ديناميكية AMOLED ثنائية مقاس 6.8 بوصة بدقة QHD+، ويعمل بمعالج Snapdragon 8 Gen 3. يتميز بنظام كاميرات متطور بذاكرة وصول عشوائي سعة 12 جيجابايت، ويأتي بسعة تخزين 512 جيجابايت. يدعم الهاتف القلم S-Pen ويتميز بمقاومة الماء والغبار وفقًا لمعيار IP68.",
+      "category": "phones",
+      "type": "samsung",
+      "price": 4899,
+      "discount": 8,
+      "image": "/samsung-s24-ultra.jpg",
+      "colors": [
+        {
+          "name": "تيتانيوم أسود"
+        },
+        {
+          "name": "تيتانيوم رمادي"
+        },
+        {
+          "name": "تيتانيوم بنفسجي"
+        },
+        {
+          "name": "تيتانيوم أصفر"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Samsung Galaxy Z Fold 5",
+      "description": "هاتف Samsung Galaxy Z Fold 5 القابل للطي يأتي بشاشة داخلية مقاس 7.6 بوصة وخارجية مقاس 6.2 بوصة، وكلاهما من نوع Dynamic AMOLED 2X. يعمل الهاتف بمعالج Snapdragon 8 Gen 2 ويأتي بسعة تخزين 512 جيجابايت. يتميز بتصميم مبتكر مقاوم للماء والغبار وفقًا لمعيار IPX8.",
+      "category": "phones",
+      "type": "samsung",
+      "price": 5699,
+      "discount": 5,
+      "image": "/samsung-z-fold-5.jpg",
+      "colors": [
+        {
+          "name": "أسود"
+        },
+        {
+          "name": "أزرق"
+        },
+        {
+          "name": "كريم"
+        },
+        {
+          "name": "أبيض"
+        }
+      ]
     }
   ],
   "samsung": [
