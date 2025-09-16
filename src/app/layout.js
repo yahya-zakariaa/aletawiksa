@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { Toaster } from "@/components/ui/sonner";
 import Footer from "@/components/Footer";
+import { useEffect } from "react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,6 +21,9 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  useEffect(() => {
+    localStorage.clear();
+  }, []);
   return (
     <html lang="en" dir="rtl">
       <body
@@ -28,7 +32,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Toaster />
-      <Footer />
+        <Footer />
       </body>
     </html>
   );
