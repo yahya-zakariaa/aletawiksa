@@ -32,9 +32,17 @@ export default function CartPage() {
     toast.success("تم إزالة المنتج من السلة");
   };
 
+  // دالة مساعدة لاستخراج السعر كرقم من product.price
+  const getPriceAsNumber = (price) => {
+    const priceString = price?.toString() || "0";
+    // نأخذ الجزء الأول قبل المسافة إذا كان هناك مسافة
+    return parseFloat(priceString.split(" ")[0]) || 0;
+  };
+
   const calculateTotal = () => {
     return products.reduce((total, product) => {
-      return total + product.price.split(" ")[0] * product.quantity;
+      const priceNumber = getPriceAsNumber(product.price);
+      return total + priceNumber * product.quantity;
     }, 0);
   };
 
@@ -197,11 +205,10 @@ export default function CartPage() {
                     -
                     {products
                       .reduce((total, product) => {
+                        const priceNumber = getPriceAsNumber(product.price);
                         return (
                           total +
-                          product.price.split(" ")[0] *
-                            (product.disc / 100) *
-                            product.quantity
+                          priceNumber * (product.disc / 100) * product.quantity
                         );
                       }, 0)
                       .toLocaleString()}{" "}
@@ -216,9 +223,10 @@ export default function CartPage() {
                       {(
                         calculateTotal() -
                         products.reduce((total, product) => {
+                          const priceNumber = getPriceAsNumber(product.price);
                           return (
                             total +
-                            product.price.split(" ")[0] *
+                            priceNumber *
                               (product.disc / 100) *
                               product.quantity
                           );
