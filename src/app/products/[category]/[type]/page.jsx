@@ -15,9 +15,8 @@ import Link from "next/link";
 const modules = {
   phones: () => import("@/data/phones.json"),
   gaming: () => import("@/data/gaming.json"),
-  // headphone: () => import("@/data/headphone.json"),
-  // ipad: () => import("@/data/ipad.json"),
-  // watchs: () => import("@/data/watchs.json"),
+  accessories: () => import("@/data/accessories.json"),
+  headphones: () => import("@/data/headphones.json"),
 };
 
 export default function CategoryPage() {

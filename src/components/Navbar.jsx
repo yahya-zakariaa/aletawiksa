@@ -1,5 +1,5 @@
+"use client";
 import Image from "next/image";
-import React from "react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -8,8 +8,25 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 import Link from "next/link";
+import { useState } from "react";
+
+// الأجهزة
 const devices = [
+  {
+    id: "all",
+    title: "الكل",
+    desc: "جميع الأجهزة",
+    href: "/products/phones",
+  },
   {
     id: "iphone",
     title: "آيفون",
@@ -30,7 +47,79 @@ const devices = [
   },
 ];
 
+// السماعات
+const headphones = [
+  {
+    id: "all",
+    title: "الكل",
+    desc: "جميع السماعات",
+    href: "/products/headphones",
+  },
+  {
+    id: "iphone",
+    title: "آيفون",
+    desc: "سماعات آبل",
+    href: "/products/headphones/iphone",
+  },
+  {
+    id: "samsung",
+    title: "سامسونج",
+    desc: "سماعات سامسونج",
+    href: "/products/headphones/samsung",
+  },
+  {
+    id: "sony",
+    title: "سوني",
+    desc: "سماعات سوني",
+    href: "/products/headphones/sony",
+  },
+];
+
+// الإكسسوارات
+const accessories = [
+  {
+    id: "all",
+    title: "الكل",
+    desc: "جميع الإكسسوارات",
+    href: "/products/accessories",
+  },
+  {
+    id: "iphone",
+    title: "آيفون",
+    desc: "إكسسوارات آيفون",
+    href: "/products/accessories/iphone",
+  },
+  {
+    id: "samsung",
+    title: "سامسونج",
+    desc: "إكسسوارات سامسونج",
+    href: "/products/accessories/samsung",
+  },
+  {
+    id: "oppo",
+    title: "اوبو",
+    desc: "إكسسوارات أوبو",
+    href: "/products/accessories/oppo",
+  },
+  {
+    id: "honor",
+    title: "هونر",
+    desc: "إكسسوارات هونر",
+    href: "/products/accessories/honor",
+  },
+];
+
+
 export default function Navbar() {
+  const [openDropdown, setOpenDropdown] = useState(null);
+
+  const toggleDropdown = (dropdownName) => {
+    if (openDropdown === dropdownName) {
+      setOpenDropdown(null);
+    } else {
+      setOpenDropdown(dropdownName);
+    }
+  };
   return (
     <>
       <div className="  fixed top-0 z-50   bg-white w-full">
@@ -148,31 +237,222 @@ export default function Navbar() {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
-            <li>سماعات</li>
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>سماعات</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <div className="w-[300px] ">
+                      <div className="flex flex-col gap-2">
+                        {headphones.map((d) => (
+                          <NavigationMenuLink key={d.id} asChild>
+                            <a
+                              href={d.href}
+                              className=" p-3 rounded-lg flex items-end  hover:bg-gray-100 transition-colors"
+                            >
+                              <div className="text-sm font-semibold">
+                                {d.title}
+                              </div>
+                              <div className="text-xs text-gray-500">
+                                {d.desc}
+                              </div>
+                            </a>
+                          </NavigationMenuLink>
+                        ))}
+                      </div>
+                    </div>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
             <Link href="/products/gaming/games">العاب بلايستيشن</Link>
-            <li>اكسسورات</li>
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>اكسسوارات</NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <div className="w-[300px] ">
+                      <div className="flex flex-col gap-2">
+                        {accessories.map((d) => (
+                          <NavigationMenuLink key={d.id} asChild>
+                            <a
+                              href={d.href}
+                              className=" p-3 rounded-lg flex items-end  hover:bg-gray-100 transition-colors"
+                            >
+                              <div className="text-sm font-semibold">
+                                {d.title}
+                              </div>
+                              <div className="text-xs text-gray-500">
+                                {d.desc}
+                              </div>
+                            </a>
+                          </NavigationMenuLink>
+                        ))}
+                      </div>
+                    </div>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
           </ul>
         </div>
-        <div className="mobile-nav w-full border-b  block md:hidden  mx-auto">
-          <ul className="flex justify-between  py-2   items-center text-[#4d1972] w-[90%] mx-auto   pb-1.5 ">
+        <div className="mobile-nav w-full border-b block md:hidden mx-auto">
+          <ul className="flex justify-between py-2 items-center text-[#4d1972] w-[90%] mx-auto pb-1.5">
             <li>
-              <button>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="28"
-                  height="28"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="3"
-                    d="M20 12H10m10-7H4m16 14H4"
-                  />
-                </svg>
-              </button>
+              <Sheet>
+                <SheetTrigger>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="28"
+                    height="28"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="3"
+                      d="M20 12H10m10-7H4m16 14H4"
+                    />
+                  </svg>
+                </SheetTrigger>
+                <SheetContent side="right" className="w-80 overflow-y-auto ">
+                  <SheetHeader className={"border-b"}>
+                    <SheetTitle className="text-right">القائمة</SheetTitle>
+                  </SheetHeader>
+
+                  <div className=" flex flex-col px-4 pb-4  space-y-4 text-right ">
+                    <Link href="/" className="py-2 font-medium">
+                      الصفحة الرئيسية
+                    </Link>
+                    <Link href="/products" className="py-2 font-medium">
+                      جميع المنتجات
+                    </Link>
+
+                    {/* Mobile Dropdown for Devices */}
+                    <div className="overflow-hidden">
+                      <button
+                        className="w-full flex justify-between items-center py-3 font-medium cursor-pointer "
+                        onClick={() => toggleDropdown("devices")}
+                      >
+                        <span>الأجهزة الذكية</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          className={`transform transition-transform ${
+                            openDropdown === "devices" ? "rotate-180" : ""
+                          }`}
+                        >
+                          <path
+                            fill="currentColor"
+                            d="m12 15.375l-6-6l1.4-1.4l4.6 4.6l4.6-4.6l1.4 1.4Z"
+                          />
+                        </svg>
+                      </button>
+
+                      {openDropdown === "devices" && (
+                        <div className="">
+                          {devices.map((device) => (
+                            <Link
+                              key={device.id}
+                              href={device.href}
+                              className="block p-3 text-sm text-[#333]"
+                            >
+                              {device.title}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Mobile Dropdown for Headphones */}
+                    <div className=" rounded-lg overflow-hidden">
+                      <button
+                        className="w-full flex justify-between items-center py-3 font-medium cursor-pointer "
+                        onClick={() => toggleDropdown("headphones")}
+                      >
+                        <span>سماعات</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          className={`transform transition-transform ${
+                            openDropdown === "headphones" ? "rotate-180" : ""
+                          }`}
+                        >
+                          <path
+                            fill="currentColor"
+                            d="m12 15.375l-6-6l1.4-1.4l4.6 4.6l4.6-4.6l1.4 1.4Z"
+                          />
+                        </svg>
+                      </button>
+
+                      {openDropdown === "headphones" && (
+                        <div className="">
+                          {headphones.map((headphone) => (
+                            <Link
+                              key={headphone.id}
+                              href={headphone.href}
+                              className="block p-3 text-sm text-[#333]"
+                            >
+                              {headphone.title}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    <Link
+                      href="/products/gaming/games"
+                      className="py-2 font-medium"
+                    >
+                      العاب بلايستيشن
+                    </Link>
+
+                    {/* Mobile Dropdown for Accessories */}
+                    <div className=" rounded-lg overflow-hidden">
+                      <button
+                        className="w-full flex justify-between items-center py-3 font-medium cursor-pointer "
+                        onClick={() => toggleDropdown("accessories")}
+                      >
+                        <span>اكسسوارات</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          className={`transform transition-transform ${
+                            openDropdown === "accessories" ? "rotate-180" : ""
+                          }`}
+                        >
+                          <path
+                            fill="currentColor"
+                            d="m12 15.375l-6-6l1.4-1.4l4.6 4.6l4.6-4.6l1.4 1.4Z"
+                          />
+                        </svg>
+                      </button>
+
+                      {openDropdown === "accessories" && (
+                        <div className="">
+                          {accessories.map((accessory) => (
+                            <Link
+                              key={accessory.id}
+                              href={accessory.href}
+                              className="block p-3 text-sm text-[#333]"
+                            >
+                              {accessory.title}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </SheetContent>
+              </Sheet>
             </li>
             <li>
               <Image
@@ -180,11 +460,11 @@ export default function Navbar() {
                 width={150}
                 height={45}
                 src="/logo.png"
-                className=" mt-1"
+                className="mt-1"
               />
             </li>
             <Link href={"/products"} className="cursor-pointer">
-              <button>
+              <button aria-label="Search">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="34"
@@ -201,6 +481,7 @@ export default function Navbar() {
           </ul>
         </div>
       </div>
+
       <div className="mobile-links fixed bottom-0 z-50 bg-white w-full border-t border-t-gray-200 md:hidden">
         <ul className="flex justify-between px-5  py-1   items-center text-[#4d1972] w-[90%] mx-auto   pb-1.5 ">
           <Link href="/" className="flex flex-col items-center gap-1/2">

@@ -1,0 +1,280 @@
+{
+  "apple": [
+    {
+      "id": "5046413737",
+      "name": "Premium Apple Leather iPhone Cases - Luxury Phone Case - Elevate Your iPhone with Timeless Elegance and Protectionfor (iPhone XR, Light Pink)",
+      "price": "110.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/61tNxi8AhiL._AC._SR360,460.jpg",
+      "disc": 12,
+      "category": "accessories",
+      "type": "apple"
+    },
+    {
+      "id": "6225815355",
+      "name": "فكرة Fekra Silicone 3D cartton Soft Cover For iPhone 15 Pro max|15 Pro|15|14 Pro Max|14 Pro|14/13|13 Pro max|13 Pro|12 Pro max|12/12Pro|11 Pro max|11 Pro/11 Drop-proof (sponj, iphone 15 pro max)",
+      "price": "85.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/71bXgfNgjGL._AC._SR360,460.jpg",
+      "disc": 18,
+      "category": "accessories",
+      "type": "apple"
+    },
+    {
+      "id": "0067555022",
+      "name": "Dl3 Mobilak Compatible with iPhone 15 Plus/iPhone 14 Plus Case 6.7\", Slim Liquid Silicone 3 Layers Soft Gel Rubber Cover Protective Phone Case with Anti-Scratch Microfiber Lining (Off White)",
+      "price": "65.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/615TzHGw52L._AC._SR360,460.jpg",
+      "disc": 22,
+      "category": "accessories",
+      "type": "apple"
+    },
+    {
+      "id": "3965820337",
+      "name": "Fekra Red Butterfly Case For iPhone 16 Pro Max | 16 Pro | 16 Plus | 16 Shockproof Silicone Cover (iPhone 16 Plus)",
+      "price": "80.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/61C1JUWmypL._AC._SR360,460.jpg",
+      "disc": 15,
+      "category": "accessories",
+      "type": "apple"
+    },
+    {
+      "id": "3058160939",
+      "name": "Supdeal Crystal Clear Case for iPhone 12 Pro Max, [Never Yellow] [Camera Protection], Thin Slim Fit Transparent Soft Silicone Phone Protective Case Cover, 6.7 Inch, Black",
+      "price": "105.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/61hWzm2rCyL._AC._SR360,460.jpg",
+      "disc": 8,
+      "category": "accessories",
+      "type": "apple"
+    },
+    {
+      "id": "0824352004",
+      "name": "UCHUANG Compatible for iPhone 13 Clear Case with 4 Corners Built-in Protective Cushion Anti-yellow Anti-collison Transparent Cover for Apple iPhone 13 6.1 inch",
+      "price": "42.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/71y+pZYuJ4L._AC._SR360,460.jpg",
+      "disc": 25,
+      "category": "accessories",
+      "type": "apple"
+    },
+    {
+      "id": "4855780748",
+      "name": "Mobile Magic Soft Silicon Camera Protection Case with Microfiber Lining For Apple iphone 13 6.1 Inch (Wine Red)",
+      "price": "60.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/6130M4j2tlL._AC._SR360,460.jpg",
+      "disc": 20,
+      "category": "accessories",
+      "type": "apple"
+    },
+    {
+      "id": "2220984073",
+      "name": "Eco Case for iPhone 13 Pro Max Star Diamond Raised Camera Protection New Case 2025, Trendy 3D Aesthetic Water Ripple Mirror Glitter Colorful Mobile Fancy Cover for iPhone 13 Pro Max (Shiny Gold)",
+      "price": "95.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/71FVTCEr0fL._AC._SR360,460.jpg",
+      "disc": 10,
+      "category": "accessories",
+      "type": "apple"
+    },
+    {
+      "id": "8020287311",
+      "name": "Grabist Magnetic Case for Iphone 16 Pro Max, Compatible with MagSafe, Built-in Camera metal frame, Translucent Matte Military-Grade Drop Protection Magnetic Case (Desert Titanium)",
+      "price": "78.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/61jUIgb+P+L._AC._SR360,460.jpg",
+      "disc": 17,
+      "category": "accessories",
+      "type": "apple"
+    },
+    {
+      "id": "5919141417",
+      "name": "Mobile Magic Shockproof Bumper Case Solid Black Matte TPU Frame with Anti-Scratch Clear Back for Apple iPhone (13 Pro Max)",
+      "price": "60.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/61J9Ve-LZjL._AC._SR360,460.jpg",
+      "disc": 23,
+      "category": "accessories",
+      "type": "apple"
+    }
+  ],
+  "samsung": [
+    {
+      "id": "2797701739",
+      "name": "Bump Silicon TPU Shild Case Microfiber Lining with Camera Protection For Samsung Galaxy A25 5G (Purple)",
+      "price": "52.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/71I8KNO5ZqL._AC._SR360,460.jpg",
+      "disc": 16,
+      "category": "accessories",
+      "type": "samsung"
+    },
+    {
+      "id": "7120183612",
+      "name": "3mara Store Iron-Man Back Cover Case for Samsung Galaxy A25 5G Material, Black, Lightweight",
+      "price": "98.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/51ifxgYPziL._AC._SR360,460.jpg",
+      "disc": 7,
+      "category": "accessories",
+      "type": "samsung"
+    },
+    {
+      "id": "4854948551",
+      "name": "Fekra Red Butterfly Soft TPU Case For Samsung Galaxy A55 A54 A14 A15 A35 A73 A53 A24 A25 5G S24 S23 Ultra S23 FE Shockproof Silicone Cover (White, Samsung Galaxy S24 Plus)",
+      "price": "67.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/5160pgsjA6L._AC._SR360,460.jpg",
+      "disc": 19,
+      "category": "accessories",
+      "type": "samsung"
+    },
+    {
+      "id": "8648726359",
+      "name": "Dl3 Mobilak Case For Samsung Galaxy A56 Heat Dissipation Case with Built-in Camera Lens Protector Slim Fit Breathable Cooling Anti-Fingerprint Hard PC Back Shockproof Cover (Black)",
+      "price": "87.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/71tELKIyXWL._AC._SR360,460.jpg",
+      "disc": 13,
+      "category": "accessories",
+      "type": "samsung"
+    },
+    {
+      "id": "3171111797",
+      "name": "Grabist Magnetic case for Samsung Galaxy A56/Samsung Galaxy A36, Full Camera Protection with lens, Compatible with magnetic stand, Translucent Matte, Shockproof Case For samsung A36 /A56 (Gray)",
+      "price": "74.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/61FVilTyqeL._AC._SR360,460.jpg",
+      "disc": 21,
+      "category": "accessories",
+      "type": "samsung"
+    },
+    {
+      "id": "5697137756",
+      "name": "Grabist Magnetic Case for Samsung Galaxy A56/Samsung Galaxy A36, Camera Lens Full Protection, Compatible Wireless Charging, Shockproof Soft TPU Cover (Gray, Samsung A56/ Samsung A36)",
+      "price": "95.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/81KyNehCDyL._AC._SR360,460.jpg",
+      "disc": 9,
+      "category": "accessories",
+      "type": "samsung"
+    },
+    {
+      "id": "8887039732",
+      "name": "Grabist Case for Samsung Galaxy A56/Samsung Galaxy A36, Compatible with Magsafe Wireless Charging, Yellowing Resistant, Magnetic Case for Samung A56/A36 (Samsung Galaxy A56 5G / Samsung Galaxy A36 5G)",
+      "price": "52.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/61P5zFxgnSL._AC._SR360,460.jpg",
+      "disc": 28,
+      "category": "accessories",
+      "type": "samsung"
+    },
+    {
+      "id": "1990579360",
+      "name": "Coqinen Transparent Magnetic Case for Samsung Galaxy A16 5G/A16 4G, Shockproof Protective Silicone Case with Hard PC Back, Clear with Car Mount",
+      "price": "45.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/6174jE-pTjL._AC._SR360,460.jpg",
+      "disc": 22,
+      "category": "accessories",
+      "type": "samsung"
+    },
+    {
+      "id": "4587608543",
+      "name": "phone case compitable with Samsung galaxy M51 Carbon Silicone Case Original Flexible Slim Enhanced Durable Anti-Shock Protector for Samsung galaxy M51 (Black)",
+      "price": "65.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/71mdGIFr5QL._AC._SR360,460.jpg",
+      "disc": 15,
+      "category": "accessories",
+      "type": "samsung"
+    },
+    {
+      "id": "8902022567",
+      "name": "UNBLACK Case Cover Shock resistant Sliding CamShield TPU + PC Compatible with Samsung Galaxy A16 (Black)",
+      "price": "108.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/51GCkGiPYVL._AC._SR360,460.jpg",
+      "disc": 11,
+      "category": "accessories",
+      "type": "samsung"
+    }
+  ],
+  "oppo": [
+    {
+      "id": "9824210168",
+      "name": "Mobile Magic Silicon Shockproof Protective Bumper Resistant Case with Camera Protection for Oppo Reno 14 5G (Black)",
+      "price": "60.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/616faouPonL._AC._SR360,460.jpg",
+      "disc": 20,
+      "category": "accessories",
+      "type": "oppo"
+    },
+    {
+      "id": "0121352382",
+      "name": "Mobile Magic Silicon Shockproof Protective Bumper Resistant Case with Camera Protection for Oppo Reno 14F 5G 4G / Reno 14 FS 5G (Black)",
+      "price": "50.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/81ENjxfML6L._AC._SR360,460.jpg",
+      "disc": 9,
+      "category": "accessories",
+      "type": "oppo"
+    },
+    {
+      "id": "4168070314",
+      "name": "3M STORE case compatible with oppo reno 14 5G global Magic Shield TPU + Silicone Shockproof Phone Case (Black)",
+      "price": "95.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/21Dkx95eugL._AC._SR360,460.jpg",
+      "disc": 13,
+      "category": "accessories",
+      "type": "oppo"
+    },
+    {
+      "id": "6616064824",
+      "name": "Case Cover Shock resistant UNBLACK Sliding CamShield TPU + PC Compatible with Oppo Reno 14 (Black)",
+      "price": "108.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/617TR5hLOGL._AC._SR360,460.jpg",
+      "disc": 3,
+      "category": "accessories",
+      "type": "oppo"
+    },
+    {
+      "id": "1997178414",
+      "name": "GQ for OPPO Reno14 Pro 5G Magnetic Phone Case, [Compatible with Mag-safe] Translucent Matte Black Shockproof TPU bezel +PC back case phone Cover",
+      "price": "260.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/51D0TkxJDnL._AC._SR360,460.jpg",
+      "disc": 15,
+      "category": "accessories",
+      "type": "oppo"
+    }
+  ],
+  "honor": [
+    {
+      "id": "4420927354",
+      "name": "fascination phone case compatible with Honor 400 pro Classic shockproof silicone soft tpu leather hard pc mobile phone Magnetic Shockproof PC + TPU Phone Case for Honor 400 pro (Black)",
+      "price": "108.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/61AmeuUup9L._AC._SR360,460.jpg",
+      "disc": 14,
+      "category": "accessories",
+      "type": "honor"
+    },
+    {
+      "id": "9878723221",
+      "name": "FASCINATION Phone case compatible with Honor 400 Skin Feel Magnetic premium pu Leather and slim soft protective Back Phone for Honor 400 (Gray)",
+      "price": "108.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/412lH8Zi5ML._AC._SR360,460.jpg",
+      "disc": 27,
+      "category": "accessories",
+      "type": "honor"
+    },
+    {
+      "id": "6475834901",
+      "name": "Clear Case for Honor 400 Lite – Shockproof TPU Bumper Case with Reinforced Corners, Slim Fit Transparent Protective Cover (Gorilla)",
+      "price": "37.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/712m9Z5CDPL._AC._SR360,460.jpg",
+      "disc": 2,
+      "category": "accessories",
+      "type": "honor"
+    },
+    {
+      "id": "8926646499",
+      "name": "GQ for Honor 400 Pro 5G Magnetic Phone Case, [Compatible with Mag-safe] Translucent Matte Black Shockproof TPU bezel +PC back case phone Cover",
+      "price": "152.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/51WBaKA-jOL._AC._SR360,460.jpg",
+      "disc": 21,
+      "category": "accessories",
+      "type": "honor"
+    },
+    {
+      "id": "5384624340",
+      "name": "FASCINATION phone case compitable with Honor 400 Pro 5G Magnetic Phone Case, [Compatible with Mag-safe] Translucent Matte Black Shockproof TPU bezel +PC back case phone Cover for Honor 400 Pro 5G",
+      "price": "152.00 ر.س",
+      "image": "https://m.media-amazon.com/images/I/51-agkaXXvL._AC._SR360,460.jpg",
+      "disc": 22,
+      "category": "accessories",
+      "type": "honor"
+    }
+  ]
+}
