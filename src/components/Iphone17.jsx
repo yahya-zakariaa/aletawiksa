@@ -96,7 +96,7 @@ export default function Iphone17() {
                   </p>
                   <div className="flex items-center justify-between sm:mt-5 mt-8">
                     <span className="sm:text-md text-[14px] font-bold text-[#333] ">
-                      {p.price} ر.س
+                      {p.price}
                     </span>
                     <span className="text-[10px] text-red-500 bg-red-100 sm:px-2 sm:py-1 px-1 py-0.5 rounded">
                       خصم {p.disc}%

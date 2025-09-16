@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { toast } from "sonner";
+import Link from "next/link";
 
 export default function CartPage() {
   const [products, setProducts] = useState([]);
@@ -96,6 +97,8 @@ export default function CartPage() {
                       src={product.image}
                       alt={product.name}
                       fill
+                      unoptimized
+                      quality={100}
                       className="object-contain scale-195 w-full "
                     />
                   </div>
@@ -227,16 +230,19 @@ export default function CartPage() {
                 </div>
               </div>
 
-              <button className="w-full bg-[#4d1572] text-white py-3 rounded-lg font-medium hover:bg-[#6b1fa3] transition-colors">
+              <Link
+                href="/checkout"
+                className="w-full block text-center bg-[#4d1572] text-white py-3 rounded-lg font-medium hover:bg-[#6b1fa3] transition-colors"
+              >
                 إتمام الشراء
-              </button>
+              </Link>
 
-              <a
+              <Link
                 href="/products"
                 className="block text-center text-[#4d1572] mt-4 hover:underline"
               >
                 ← مواصلة التسوق
-              </a>
+              </Link>
             </div>
           </div>
         </div>

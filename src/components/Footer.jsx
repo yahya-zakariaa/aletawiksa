@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full px-10 pt-5 md:pb-5 pb-20 bg-[#e3d0e8]">
-      <div className="container grid grid-cols-12 mx-auto w-[90%] items-start   py-5 md:py-10">
+    <footer className="w-full md:px-10 pt-5 md:pb-5 pb-20 bg-[#e3d0e8]">
+      <div className="container grid grid-cols-12 mx-auto md:w-[90%] items-start   py-5 md:py-10">
         <div className="flex px-3 flex-col md:col-span-5 col-span-12 md:text-start text-center">
           <Image
             src="/logo.png"
@@ -79,7 +79,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className=" flex flex-col col-span-12 md:col-span-6">
+          <div className=" flex flex-col items-center col-span-12 md:col-span-6">
             <h3 className="text-white text-[20px] mb-[16px]">
               تابعونا وصيروا اقرب
             </h3>
