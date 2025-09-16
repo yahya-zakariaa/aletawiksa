@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import phones from "@/data/phones.json";
 import Image from "next/image";
 import {
   Select,
@@ -12,16 +11,68 @@ import {
 import { toast } from "sonner";
 import Link from "next/link";
 
+const modules = {
+  phones: () => import("@/data/phones.json"),
+  gaming: () => import("@/data/gaming.json"),
+  // headphone: () => import("@/data/headphone.json"),
+  // ipad: () => import("@/data/ipad.json"),
+  // watchs: () => import("@/data/watchs.json"),
+};
+
+const shuffleArray = (array) => {
+  const shuffledArray = [...array];
+  for (let i = shuffledArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffledArray[i], shuffledArray[j]] = [shuffledArray[j], shuffledArray[i]];
+  }
+  return shuffledArray;
+};
+
 export default function Page() {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [sortOption, setSortOption] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const allProducts = Object.values(phones).reduce((p, c) => p.concat(c), []);
-    setProducts(allProducts);
-    setFilteredProducts(allProducts);
+    const loadAllProducts = async () => {
+      try {
+        setLoading(true);
+
+        // تحميل جميع البيانات من جميع الوحدات
+        const moduleKeys = Object.keys(modules);
+        const allProducts = [];
+
+        for (const key of moduleKeys) {
+          try {
+            const module = await modules[key]();
+            const data = module.default || module;
+
+            // جمع جميع المنتجات من جميع الفئات
+            Object.values(data).forEach((categoryProducts) => {
+              if (Array.isArray(categoryProducts)) {
+                allProducts.push(...categoryProducts);
+              }
+            });
+          } catch (error) {
+            console.error(`Error loading ${key} data:`, error);
+          }
+        }
+
+        // خلط المنتجات عشوائياً
+        const shuffledProducts = shuffleArray(allProducts);
+        setProducts(shuffledProducts);
+        setFilteredProducts(shuffledProducts);
+      } catch (error) {
+        console.error("Error loading products:", error);
+        toast.error("حدث خطأ في تحميل المنتجات");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadAllProducts();
   }, []);
 
   // فلترة المنتجات بناءً على البحث
@@ -30,7 +81,7 @@ export default function Page() {
 
     if (searchQuery) {
       filtered = filtered.filter((product) =>
-        product.name.toLowerCase().includes(searchQuery.toLowerCase())
+        product.name?.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
 
@@ -40,13 +91,21 @@ export default function Page() {
   const sortProducts = (option) => {
     let sorted = [...filteredProducts];
     if (option === "priceAsc") {
-      sorted.sort((a, b) => a.price - b.price);
+      sorted.sort((a, b) => {
+        const priceA = parseFloat(a.price?.toString().split(" ")[0]) || 0;
+        const priceB = parseFloat(b.price?.toString().split(" ")[0]) || 0;
+        return priceA - priceB;
+      });
     } else if (option === "priceDesc") {
-      sorted.sort((a, b) => b.price - a.price);
+      sorted.sort((a, b) => {
+        const priceA = parseFloat(a.price?.toString().split(" ")[0]) || 0;
+        const priceB = parseFloat(b.price?.toString().split(" ")[0]) || 0;
+        return priceB - priceA;
+      });
     } else if (option === "disc") {
-      sorted.sort((a, b) => b.disc - a.disc);
+      sorted.sort((a, b) => (b.disc || 0) - (a.disc || 0));
     } else if (option === "name") {
-      sorted.sort((a, b) => a.name.localeCompare(b.name));
+      sorted.sort((a, b) => (a.name || "").localeCompare(b.name || ""));
     }
     setFilteredProducts(sorted);
   };
@@ -83,8 +142,19 @@ export default function Page() {
     if (sortOption) sortProducts(sortOption);
   }, [sortOption]);
 
+  if (loading) {
+    return (
+      <section className="min-h-screen mt-24 md:mt-40 px-4 sm:px-6 pb-10 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#4d1572] mx-auto"></div>
+          <p className="mt-4 text-gray-600">جاري تحميل المنتجات...</p>
+        </div>
+      </section>
+    );
+  }
+
   return (
-    <section className="min-h-screen mt-24 md:mt-40 px-20 sm:px-6 pb-10">
+    <section className="min-h-screen mt-24 md:mt-40 px-4 sm:px-6 pb-10">
       {/* العنوان الرئيسي */}
       <div className="header mb-4 md:mb-6 text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-[#4d1572]">
@@ -119,7 +189,7 @@ export default function Page() {
           </svg>
         </div>
         <Select onValueChange={(value) => setSortOption(value)}>
-          <SelectTrigger className=" bg-white border-[#4d1572]/20 py-3">
+          <SelectTrigger className="bg-white border-[#4d1572]/20 py-3">
             <SelectValue placeholder="ترتيب حسب" />
           </SelectTrigger>
           <SelectContent>
@@ -146,29 +216,30 @@ export default function Page() {
         {filteredProducts.map((p, i) => {
           const priceString = p.price?.toString() || "0";
           // نأخذ الجزء الأول قبل المسافة إذا كان هناك مسافة
-          p.price = parseFloat(priceString.split(" ")[0]) || 0;
+          const price = parseFloat(priceString.split(" ")[0]) || 0;
+
           return (
             <div
               key={i}
-              className="bg-white rounded-xl  shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#4d1572]/20"
+              className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-[#4d1572]/20"
             >
               <Link
                 href={`/products/${p.category}/${p.type}/${p.id}`}
                 className=""
               >
                 {/* صورة المنتج */}
-                <div className="w-full h-[180px] overflow-hidden rounded-2xl  relative">
+                <div className="w-full h-[180px] overflow-hidden rounded-2xl relative">
                   <Image
-                    src={p.image}
+                    src={p.image || "/placeholder-image.jpg"}
                     alt={p.name}
                     fill
                     quality={100}
                     unoptimized
-                    className={` mx-auto w-full rounded-2xl  ${
-                      p.name.includes("17") || p.name.includes("Air")
-                        ? "  object-cover scale-130"
-                        : " object-contain sm:scale-100 scale-80"
-                    }   `}
+                    className={`mx-auto w-full rounded-2xl ${
+                      p.name?.includes("17") || p.name?.includes("Air")
+                        ? "object-cover scale-130"
+                        : "object-contain sm:scale-100 scale-80"
+                    }`}
                   />
                   {p.disc > 0 && (
                     <div className="absolute top-3 left-3 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">
@@ -186,11 +257,11 @@ export default function Page() {
                   {/* السعر والخصم */}
                   <div className="flex items-center justify-between mb-4">
                     <span className="text-lg md:text-xl font-bold text-[#4d1572]">
-                      {p.price.toLocaleString()} ر.س
+                      {price.toLocaleString()} ر.س
                     </span>
                     {p.disc > 0 && (
                       <span className="text-xs text-red-600 bg-red-100 px-2 mt-2 py-1 rounded-full">
-                        وفر {Math.round(p.price * (p.disc / 100))} ر.س
+                        وفر {Math.round(price * (p.disc / 100))} ر.س
                       </span>
                     )}
                   </div>
@@ -227,7 +298,7 @@ export default function Page() {
       </div>
 
       {/* رسالة عندما لا يوجد منتجات */}
-      {filteredProducts.length === 0 && (
+      {filteredProducts.length === 0 && !loading && (
         <div className="text-center py-12">
           <p className="text-gray-500 text-lg">لا توجد منتجات تطابق بحثك</p>
         </div>

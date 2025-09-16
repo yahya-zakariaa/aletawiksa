@@ -3,12 +3,10 @@ import React from "react";
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 const devices = [
@@ -16,25 +14,19 @@ const devices = [
     id: "iphone",
     title: "آيفون",
     desc: "أحدث هواتف آبل",
-    href: "/category/iphone",
+    href: "/products/phones/iphone",
   },
   {
     id: "samsung",
     title: "سامسونج",
     desc: "هواتف سامسونج الذكية",
-    href: "/category/samsung",
+    href: "/products/phones/samsung",
   },
   {
-    id: "oppo",
-    title: "أوبو",
-    desc: "هواتف أوبو بأسعار متنوعة",
-    href: "/category/oppo",
-  },
-  {
-    id: "playstation",
+    id: "playstations",
     title: "بلايستيشن",
-    desc: "أجهزة الألعاب وملحقاتها",
-    href: "/category/playstation",
+    desc: "أجهزة الألعاب",
+    href: "/products/gaming/playstations",
   },
 ];
 
@@ -156,8 +148,9 @@ export default function Navbar() {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
-            <li>اكسسورات</li>
             <li>سماعات</li>
+            <Link href="/products/gaming/games">العاب بلايستيشن</Link>
+            <li>اكسسورات</li>
           </ul>
         </div>
         <div className="mobile-nav w-full border-b  block md:hidden  mx-auto">

@@ -6,6 +6,7 @@ import { toast } from "sonner";
 
 const modules = {
   phones: () => import("@/data/phones.json"),
+  gaming: () => import("@/data/gaming.json"),
   // headphone: () => import("@/data/headphone.json"),
   // ipad: () => import("@/data/ipad.json"),
   // watchs: () => import("@/data/watchs.json"),
