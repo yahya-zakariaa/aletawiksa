@@ -46,6 +46,7 @@ export default function Navbar() {
           <ul className="flex justify-center  items-center text-black w-[90%] mx-auto border-b border-b-gray-200 pb-1.5 ">
             <li>
               <Image
+                alt="logo"
                 width={220}
                 height={60}
                 src="/logo.png"
@@ -113,9 +114,9 @@ export default function Navbar() {
                 >
                   <path
                     fill="#4D1572"
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M12 1.25a4.75 4.75 0 1 0 0 9.5a4.75 4.75 0 0 0 0-9.5M8.75 6a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0M12 12.25c-2.313 0-4.445.526-6.024 1.414C4.42 14.54 3.25 15.866 3.25 17.5v.102c-.001 1.162-.002 2.62 1.277 3.662c.629.512 1.51.877 2.7 1.117c1.192.242 2.747.369 4.773.369s3.58-.127 4.774-.369c1.19-.24 2.07-.605 2.7-1.117c1.279-1.042 1.277-2.5 1.276-3.662V17.5c0-1.634-1.17-2.96-2.725-3.836c-1.58-.888-3.711-1.414-6.025-1.414M4.75 17.5c0-.851.622-1.775 1.961-2.528c1.316-.74 3.184-1.222 5.29-1.222c2.104 0 3.972.482 5.288 1.222c1.34.753 1.961 1.677 1.961 2.528c0 1.308-.04 2.044-.724 2.6c-.37.302-.99.597-2.05.811c-1.057.214-2.502.339-4.476.339s-3.42-.125-4.476-.339c-1.06-.214-1.68-.509-2.05-.81c-.684-.557-.724-1.293-.724-2.601"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   />
                 </svg>
                 <span className="text-[#4D1572]">تسجيل الدخول</span>
@@ -172,8 +173,8 @@ export default function Navbar() {
                   <path
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     strokeWidth="3"
                     d="M20 12H10m10-7H4m16 14H4"
                   />
@@ -182,6 +183,7 @@ export default function Navbar() {
             </li>
             <li>
               <Image
+                alt="logo"
                 width={150}
                 height={45}
                 src="/logo.png"
@@ -222,7 +224,10 @@ export default function Navbar() {
             </svg>
             <span className="text-[10px]">الرئيسيه</span>
           </Link>
-          <Link href="/products/" className="flex flex-col items-center gap-1/2">
+          <Link
+            href="/products/"
+            className="flex flex-col items-center gap-1/2"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -232,9 +237,9 @@ export default function Navbar() {
               <path
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
                 d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25zm0 9.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18zM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25zm0 9.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18z"
               />
             </svg>
@@ -247,9 +252,9 @@ export default function Navbar() {
               height="28"
               viewBox="0 0 24 24"
             >
-              <g fill="none" stroke="currentColor" stroke-width="1">
+              <g fill="none" stroke="currentColor" strokeWidth="1">
                 <path
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                   d="M7.5 8.5V8c0-.464 0-.697.02-.892a4 4 0 0 1 3.588-3.589c.195-.019.428-.019.892-.019v0c.464 0 .697 0 .892.02a4 4 0 0 1 3.589 3.588c.019.195.019.428.019.892v.5m-1 5v-2m-7 2v-2"
                 />
                 <path d="M5.5 12.1c0-1.697 0-2.546.527-3.073S7.403 8.5 9.1 8.5h5.8c1.697 0 2.546 0 3.073.527s.527 1.376.527 3.073v2.4c0 2.828 0 4.243-.879 5.121c-.878.879-2.293.879-5.121.879h-1c-2.828 0-4.243 0-5.121-.879C5.5 18.743 5.5 17.328 5.5 14.5z" />
@@ -266,9 +271,9 @@ export default function Navbar() {
             >
               <path
                 fill="#4D1572"
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M12 1.25a4.75 4.75 0 1 0 0 9.5a4.75 4.75 0 0 0 0-9.5M8.75 6a3.25 3.25 0 1 1 6.5 0a3.25 3.25 0 0 1-6.5 0M12 12.25c-2.313 0-4.445.526-6.024 1.414C4.42 14.54 3.25 15.866 3.25 17.5v.102c-.001 1.162-.002 2.62 1.277 3.662c.629.512 1.51.877 2.7 1.117c1.192.242 2.747.369 4.773.369s3.58-.127 4.774-.369c1.19-.24 2.07-.605 2.7-1.117c1.279-1.042 1.277-2.5 1.276-3.662V17.5c0-1.634-1.17-2.96-2.725-3.836c-1.58-.888-3.711-1.414-6.025-1.414M4.75 17.5c0-.851.622-1.775 1.961-2.528c1.316-.74 3.184-1.222 5.29-1.222c2.104 0 3.972.482 5.288 1.222c1.34.753 1.961 1.677 1.961 2.528c0 1.308-.04 2.044-.724 2.6c-.37.302-.99.597-2.05.811c-1.057.214-2.502.339-4.476.339s-3.42-.125-4.476-.339c-1.06-.214-1.68-.509-2.05-.81c-.684-.557-.724-1.293-.724-2.601"
-                clip-rule="evenodd"
+                clipRule="evenodd"
               />
             </svg>
             <span className="text-[10px]">حسابي</span>

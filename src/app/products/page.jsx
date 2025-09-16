@@ -129,7 +129,7 @@ export default function Page() {
               {/* السعر والخصم */}
               <div className="flex items-center justify-between mb-4">
                 <span className="text-lg md:text-xl font-bold text-[#4d1572]">
-                  {p.price.toLocaleString()} ر.س
+                  {p.price.toLocaleString()}{" "}
                 </span>
                 {p.discount > 0 && (
                   <span className="text-xs sm:text-sm text-red-600 bg-red-100 px-2 py-1 rounded-full">
@@ -152,9 +152,9 @@ export default function Page() {
                   <path
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="32"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="32"
                     d="M256 256v128m64-64H192M80 176a16 16 0 0 0-16 16v216c0 30.24 25.76 56 56 56h272c30.24 0 56-24.51 56-54.75V192a16 16 0 0 0-16-16Zm80 0v-32a96 96 0 0 1 96-96h0a96 96 0 0 1 96 96v32"
                   />
                 </svg>

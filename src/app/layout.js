@@ -28,8 +28,8 @@ export default function RootLayout({ children }) {
         <Navbar />
         {children}
         <Toaster />
-      </body>
       <Footer />
+      </body>
     </html>
   );
 }
