@@ -23,7 +23,7 @@ export default function Home() {
           <Iphone17 />
         </div>
       </div>
-      <div className="container w-[95%] md:w-[85%]    mx-auto mt-14 ">
+      <div className="container w-[95%] md:w-[85%]    mx-auto my-14 ">
         <div className="bg-[#4d1572] w-full rounded-2xl pb-12 md:pb-16 pt-7 px-2 relative">
           <div className="header mb-10 ">
             <h2 className="text-3xl  font-bold text-center w-fit mx-auto text-white  ">
@@ -33,14 +33,6 @@ export default function Home() {
 
           <Slider />
         </div>
-      </div>
-      <div className="container w-[90%]   mx-auto my-14 ">
-        <div className="header mb-5 ">
-          <h2 className="text-2xl font-bold text-center w-fit mx-auto text-[#4d1572] ">
-            التصنيفات
-          </h2>
-        </div>
-        <CategoriesSlider />
       </div>
       <div className="container w-[95%] md:w-[85%]    mx-auto mb-14 ">
         <div className="bg-[#4d1572] w-full rounded-2xl pb-12 md:pb-16 pt-5 px-2 relative">
@@ -54,7 +46,15 @@ export default function Home() {
           <NewProducts />
         </div>
       </div>
-      <div className="container w-[95%] md:w-[85%] overflow-hidden mx-auto mb-14 relative text-center bg-[#4d1572] py-3 rounded-3xl px-5 md:px-20">
+      <div className="container w-[90%]   mx-auto my-14 ">
+        <div className="header mb-5 ">
+          <h2 className="text-2xl font-bold text-center w-fit mx-auto text-[#4d1572] ">
+            التصنيفات
+          </h2>
+        </div>
+        <CategoriesSlider />
+      </div>
+      <div className="container w-[95%] md:w-[85%] overflow-hidden mx-auto my-14 relative text-center bg-[#4d1572] py-3 rounded-3xl px-5 md:px-20">
         <h2 className="title text-white font-bold text-xl md:text-3xl tracking-wide mb-2">
           X-WOLF
         </h2>
@@ -63,7 +63,6 @@ export default function Home() {
           كمل وشوف
         </button>
       </div>
-
       <div className="container p-3 md:p-4 relative  w-[95%] md:w-[85%]    mx-auto mb-14 border border-[#4d1572] rounded-md">
         <div className="grid grid-cols-12  items-center">
           <div className="col-span-6 md:col-span-6 relative">
